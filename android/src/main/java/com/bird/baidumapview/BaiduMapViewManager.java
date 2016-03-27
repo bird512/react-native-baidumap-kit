@@ -8,6 +8,11 @@ import com.baidu.mapapi.map.BitmapDescriptorFactory;
 import com.baidu.mapapi.map.MapView;
 import com.baidu.mapapi.map.MarkerOptions;
 import com.baidu.mapapi.map.OverlayOptions;
+import com.baidu.mapapi.map.PolygonOptions;
+import com.baidu.mapapi.map.Polyline;
+import com.baidu.mapapi.map.PolylineOptions;
+import com.baidu.mapapi.map.Stroke;
+import com.baidu.mapapi.map.TextOptions;
 import com.baidu.mapapi.model.LatLng;
 import com.baidu.mapapi.map.MapStatus;
 import com.baidu.mapapi.map.MapStatusUpdate;
@@ -34,6 +39,9 @@ import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.uimanager.events.RCTEventEmitter;
 import com.facebook.react.bridge.WritableArray;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class BaiduMapViewManager extends SimpleViewManager<MapView> {
     public static final String RCT_CLASS = "RCTBaiduMap";
@@ -42,7 +50,8 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
     protected MapView mapView;
     protected Activity mActivity;
     protected ThemedReactContext context;
-
+    private boolean _lineEnabled = false;
+    private ArrayList<LatLng> _markerList;
     @Override
     public LayoutShadowNode createShadowNodeInstance() {
         return new BaiduMapShadowNode();
@@ -112,10 +121,16 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
         Log.d(TAG, "marker:" + array);
         if (array != null) {
             mapView.getMap().clear();
+            if(_markerList == null){
+                _markerList = new ArrayList();
+            }else{
+                _markerList.clear();
+            }
             for (int i = 0; i < array.size(); i++) {
                 ReadableArray sub = array.getArray(i);
                 //定义Maker坐标点
                 LatLng point = new LatLng(sub.getDouble(0), sub.getDouble(1));
+                _markerList.add(point);
                 //构建Marker图标
                 BitmapDescriptor bitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_gcoding);
                 //构建MarkerOption，用于在地图上添加Marker
@@ -126,8 +141,49 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
                 //在地图上添加Marker，并显示
                 mapView.getMap().addOverlay(option);
             }
+            if(_lineEnabled){
+                this.markerlinesEnabled(mapView, true);
+            }
+
         }
     }
+
+    /**
+     * 实时道路热力图
+     *
+     * @param mapView
+     * @param isEnabled
+     */
+    @ReactProp(name="markerlinesEnabled", defaultBoolean = false)
+    public void markerlinesEnabled(MapView mapView, boolean isEnabled) {
+        Log.d(TAG, "drawLines:" + isEnabled);
+        this._lineEnabled = isEnabled;
+        if (isEnabled && _markerList != null && _markerList.size()>1) {
+            OverlayOptions ooPolyline1 = new PolylineOptions().width(10)
+                    .color(0xAAFF0000).points(_markerList);
+            mapView.getMap().addOverlay(ooPolyline1);
+
+        }
+    }
+    @ReactProp(name="tips")
+    public void showTips(MapView mapView,ReadableArray array){
+        Log.d(TAG, "showTips:" + array);
+        if(array != null && array.size()>1){
+            String text = array.getString(0);
+            ReadableArray positon = array.getArray(1);
+            LatLng llText = new LatLng(positon.getDouble(0), positon.getDouble(1));
+            OverlayOptions textOption = new TextOptions()
+                    .bgColor(0xAAFFFF00)
+                    .fontSize(24)
+                    .fontColor(0xFFFF00FF)
+                    .text(text)
+                    .position(llText);
+
+            mapView.getMap().addOverlay(textOption);
+        }
+
+    }
+
 
     /**
      * 显示地理标记
@@ -159,7 +215,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
      * 定位
      *
      * @param mapView
-     * @param boolean
+     * @param isEnabled
      */
     @ReactProp(name="locationEnabled",defaultBoolean = false)
     public void setLocationEnabled(MapView mapView, boolean isEnabled){
@@ -171,7 +227,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
                 LocationClientOption option = new LocationClientOption();
                 option.setOpenGps(true); // 打开gps
                 option.setCoorType("bd09ll"); // 设置坐标类型
-                //option.setScanSpan(1000);
+                option.setScanSpan(1000);
                 mLocClient.setLocOption(option);              
             }
             mLocClient.start();         //TODO mLocClient.stop(); when distory
@@ -234,7 +290,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
         postion.pushDouble(marker.getPosition().longitude);
         
         event.putString("type", "markerClick");
-        event.putArray("postion",postion);
+        event.putArray("marker",postion);
         fireEvent(event);       
     }
 

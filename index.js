@@ -8,6 +8,8 @@ var iface = {
     trafficEnabled: PropTypes.bool,
     heatMapEnabled: PropTypes.bool,
     locationEnabled: PropTypes.bool,
+    markerlinesEnabled:PropTypes.bool,
+    tips:PropTypes.array,
     marker:PropTypes.array,
     center:PropTypes.array,
     onChange:PropTypes.func
