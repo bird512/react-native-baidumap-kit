@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.bee.baidumapview;
+package com.bird.baidumapview;
 
 public final class R {
     public static final class anim {
@@ -2375,33 +2375,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.bee.baidumapview:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.bee.baidumapview:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.bee.baidumapview:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.bee.baidumapview:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.bee.baidumapview:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.bee.baidumapview:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.bee.baidumapview:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.bee.baidumapview:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.bee.baidumapview:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.bee.baidumapview:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.bee.baidumapview:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.bee.baidumapview:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.bee.baidumapview:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.bee.baidumapview:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.bee.baidumapview:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.bee.baidumapview:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.bee.baidumapview:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.bee.baidumapview:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.bee.baidumapview:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.bee.baidumapview:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.bee.baidumapview:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.bee.baidumapview:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.bee.baidumapview:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.bee.baidumapview:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.bee.baidumapview:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.bee.baidumapview:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.bee.baidumapview:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.bird.baidumapview:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.bird.baidumapview:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.bird.baidumapview:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.bird.baidumapview:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.bird.baidumapview:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.bird.baidumapview:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.bird.baidumapview:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.bird.baidumapview:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.bird.baidumapview:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.bird.baidumapview:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.bird.baidumapview:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.bird.baidumapview:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.bird.baidumapview:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.bird.baidumapview:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.bird.baidumapview:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.bird.baidumapview:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.bird.baidumapview:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.bird.baidumapview:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.bird.baidumapview:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.bird.baidumapview:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.bird.baidumapview:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.bird.baidumapview:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.bird.baidumapview:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.bird.baidumapview:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.bird.baidumapview:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.bird.baidumapview:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.bird.baidumapview:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2441,17 +2441,17 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f010098
         };
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#background}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:background
+          @attr name com.bird.baidumapview:background
         */
         public static int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2459,11 +2459,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.bee.baidumapview:backgroundSplit
+          @attr name com.bird.baidumapview:backgroundSplit
         */
         public static int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2471,11 +2471,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.bee.baidumapview:backgroundStacked
+          @attr name com.bird.baidumapview:backgroundStacked
         */
         public static int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2487,11 +2487,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:contentInsetEnd
+          @attr name com.bird.baidumapview:contentInsetEnd
         */
         public static int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2503,11 +2503,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:contentInsetLeft
+          @attr name com.bird.baidumapview:contentInsetLeft
         */
         public static int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2519,11 +2519,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:contentInsetRight
+          @attr name com.bird.baidumapview:contentInsetRight
         */
         public static int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2535,21 +2535,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:contentInsetStart
+          @attr name com.bird.baidumapview:contentInsetStart
         */
         public static int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:customNavigationLayout
+          @attr name com.bird.baidumapview:customNavigationLayout
         */
         public static int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2567,21 +2567,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.bee.baidumapview:displayOptions
+          @attr name com.bird.baidumapview:displayOptions
         */
         public static int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:divider
+          @attr name com.bird.baidumapview:divider
         */
         public static int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2593,11 +2593,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:elevation
+          @attr name com.bird.baidumapview:elevation
         */
         public static int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#height}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2609,11 +2609,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:height
+          @attr name com.bird.baidumapview:height
         */
         public static int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2623,51 +2623,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:hideOnContentScroll
+          @attr name com.bird.baidumapview:hideOnContentScroll
         */
         public static int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:homeAsUpIndicator
+          @attr name com.bird.baidumapview:homeAsUpIndicator
         */
         public static int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:homeLayout
+          @attr name com.bird.baidumapview:homeLayout
         */
         public static int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:icon
+          @attr name com.bird.baidumapview:icon
         */
         public static int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:indeterminateProgressStyle
+          @attr name com.bird.baidumapview:indeterminateProgressStyle
         */
         public static int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2679,21 +2679,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:itemPadding
+          @attr name com.bird.baidumapview:itemPadding
         */
         public static int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:logo
+          @attr name com.bird.baidumapview:logo
         */
         public static int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2707,21 +2707,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.bee.baidumapview:navigationMode
+          @attr name com.bird.baidumapview:navigationMode
         */
         public static int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:popupTheme
+          @attr name com.bird.baidumapview:popupTheme
         */
         public static int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2733,21 +2733,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:progressBarPadding
+          @attr name com.bird.baidumapview:progressBarPadding
         */
         public static int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:progressBarStyle
+          @attr name com.bird.baidumapview:progressBarStyle
         */
         public static int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2757,21 +2757,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:subtitle
+          @attr name com.bird.baidumapview:subtitle
         */
         public static int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:subtitleTextStyle
+          @attr name com.bird.baidumapview:subtitleTextStyle
         */
         public static int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#title}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2781,17 +2781,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:title
+          @attr name com.bird.baidumapview:title
         */
         public static int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:titleTextStyle
+          @attr name com.bird.baidumapview:titleTextStyle
         */
         public static int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -2843,12 +2843,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.bee.baidumapview:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.bee.baidumapview:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.bee.baidumapview:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.bee.baidumapview:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.bee.baidumapview:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.bee.baidumapview:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.bird.baidumapview:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.bird.baidumapview:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.bird.baidumapview:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.bird.baidumapview:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.bird.baidumapview:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.bird.baidumapview:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2862,17 +2862,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#background}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:background
+          @attr name com.bird.baidumapview:background
         */
         public static int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2880,21 +2880,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.bee.baidumapview:backgroundSplit
+          @attr name com.bird.baidumapview:backgroundSplit
         */
         public static int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:closeItemLayout
+          @attr name com.bird.baidumapview:closeItemLayout
         */
         public static int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#height}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2906,27 +2906,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:height
+          @attr name com.bird.baidumapview:height
         */
         public static int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:subtitleTextStyle
+          @attr name com.bird.baidumapview:subtitleTextStyle
         */
         public static int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:titleTextStyle
+          @attr name com.bird.baidumapview:titleTextStyle
         */
         public static int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2935,8 +2935,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.bee.baidumapview:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.bee.baidumapview:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.bird.baidumapview:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.bird.baidumapview:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2945,17 +2945,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:expandActivityOverflowButtonDrawable
+          @attr name com.bird.baidumapview:expandActivityOverflowButtonDrawable
         */
         public static int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2965,7 +2965,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:initialActivityCount
+          @attr name com.bird.baidumapview:initialActivityCount
         */
         public static int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -2975,11 +2975,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.bee.baidumapview:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.bee.baidumapview:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.bee.baidumapview:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.bee.baidumapview:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.bee.baidumapview:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.bird.baidumapview:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.bird.baidumapview:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.bird.baidumapview:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.bird.baidumapview:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.bird.baidumapview:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -2999,53 +2999,53 @@ containing a value of this type.
         */
         public static int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:buttonPanelSideLayout
+          @attr name com.bird.baidumapview:buttonPanelSideLayout
         */
         public static int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:listItemLayout
+          @attr name com.bird.baidumapview:listItemLayout
         */
         public static int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:listLayout
+          @attr name com.bird.baidumapview:listLayout
         */
         public static int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:multiChoiceItemLayout
+          @attr name com.bird.baidumapview:multiChoiceItemLayout
         */
         public static int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:singleChoiceItemLayout
+          @attr name com.bird.baidumapview:singleChoiceItemLayout
         */
         public static int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppCompatTextView.
@@ -3055,7 +3055,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.bee.baidumapview:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.bird.baidumapview:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -3070,14 +3070,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.bee.baidumapview:textAllCaps
+          @attr name com.bird.baidumapview:textAllCaps
         */
         public static int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -3086,7 +3086,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.bee.baidumapview:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.bird.baidumapview:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -3094,7 +3094,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010025
         };
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -3104,7 +3104,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:allowStacking
+          @attr name com.bird.baidumapview:allowStacking
         */
         public static int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CompoundButton.
@@ -3114,8 +3114,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.bee.baidumapview:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.bee.baidumapview:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.bird.baidumapview:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.bird.baidumapview:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -3131,7 +3131,7 @@ containing a value of this type.
         */
         public static int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -3142,11 +3142,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:buttonTint
+          @attr name com.bird.baidumapview:buttonTint
         */
         public static int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -3162,7 +3162,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.bee.baidumapview:buttonTintMode
+          @attr name com.bird.baidumapview:buttonTintMode
         */
         public static int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -3171,14 +3171,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.bee.baidumapview:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.bee.baidumapview:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.bee.baidumapview:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.bee.baidumapview:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.bee.baidumapview:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.bee.baidumapview:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.bee.baidumapview:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.bee.baidumapview:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.bird.baidumapview:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.bird.baidumapview:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.bird.baidumapview:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.bird.baidumapview:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.bird.baidumapview:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.bird.baidumapview:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.bird.baidumapview:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.bird.baidumapview:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -3194,7 +3194,7 @@ containing a value of this type.
             0x7f01002c, 0x7f01002d, 0x7f01002e, 0x7f01002f
         };
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3206,11 +3206,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:arrowHeadLength
+          @attr name com.bird.baidumapview:arrowHeadLength
         */
         public static int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3222,11 +3222,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:arrowShaftLength
+          @attr name com.bird.baidumapview:arrowShaftLength
         */
         public static int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3238,11 +3238,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:barLength
+          @attr name com.bird.baidumapview:barLength
         */
         public static int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#color}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3253,11 +3253,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:color
+          @attr name com.bird.baidumapview:color
         */
         public static int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3269,11 +3269,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:drawableSize
+          @attr name com.bird.baidumapview:drawableSize
         */
         public static int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3285,11 +3285,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:gapBetweenBars
+          @attr name com.bird.baidumapview:gapBetweenBars
         */
         public static int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3299,11 +3299,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:spinBars
+          @attr name com.bird.baidumapview:spinBars
         */
         public static int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3315,7 +3315,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:thickness
+          @attr name com.bird.baidumapview:thickness
         */
         public static int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a GenericDraweeView.
@@ -3324,30 +3324,30 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #GenericDraweeView_actualImageScaleType com.bee.baidumapview:actualImageScaleType}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_backgroundImage com.bee.baidumapview:backgroundImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_fadeDuration com.bee.baidumapview:fadeDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_failureImage com.bee.baidumapview:failureImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_failureImageScaleType com.bee.baidumapview:failureImageScaleType}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_overlayImage com.bee.baidumapview:overlayImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_placeholderImage com.bee.baidumapview:placeholderImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_placeholderImageScaleType com.bee.baidumapview:placeholderImageScaleType}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_pressedStateOverlayImage com.bee.baidumapview:pressedStateOverlayImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_progressBarAutoRotateInterval com.bee.baidumapview:progressBarAutoRotateInterval}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_progressBarImage com.bee.baidumapview:progressBarImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_progressBarImageScaleType com.bee.baidumapview:progressBarImageScaleType}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_retryImage com.bee.baidumapview:retryImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_retryImageScaleType com.bee.baidumapview:retryImageScaleType}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundAsCircle com.bee.baidumapview:roundAsCircle}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundBottomLeft com.bee.baidumapview:roundBottomLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundBottomRight com.bee.baidumapview:roundBottomRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundTopLeft com.bee.baidumapview:roundTopLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundTopRight com.bee.baidumapview:roundTopRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundWithOverlayColor com.bee.baidumapview:roundWithOverlayColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundedCornerRadius com.bee.baidumapview:roundedCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundingBorderColor com.bee.baidumapview:roundingBorderColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundingBorderWidth com.bee.baidumapview:roundingBorderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_viewAspectRatio com.bee.baidumapview:viewAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_actualImageScaleType com.bird.baidumapview:actualImageScaleType}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_backgroundImage com.bird.baidumapview:backgroundImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_fadeDuration com.bird.baidumapview:fadeDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_failureImage com.bird.baidumapview:failureImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_failureImageScaleType com.bird.baidumapview:failureImageScaleType}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_overlayImage com.bird.baidumapview:overlayImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_placeholderImage com.bird.baidumapview:placeholderImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_placeholderImageScaleType com.bird.baidumapview:placeholderImageScaleType}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_pressedStateOverlayImage com.bird.baidumapview:pressedStateOverlayImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_progressBarAutoRotateInterval com.bird.baidumapview:progressBarAutoRotateInterval}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_progressBarImage com.bird.baidumapview:progressBarImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_progressBarImageScaleType com.bird.baidumapview:progressBarImageScaleType}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_retryImage com.bird.baidumapview:retryImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_retryImageScaleType com.bird.baidumapview:retryImageScaleType}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_roundAsCircle com.bird.baidumapview:roundAsCircle}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_roundBottomLeft com.bird.baidumapview:roundBottomLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_roundBottomRight com.bird.baidumapview:roundBottomRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_roundTopLeft com.bird.baidumapview:roundTopLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_roundTopRight com.bird.baidumapview:roundTopRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_roundWithOverlayColor com.bird.baidumapview:roundWithOverlayColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_roundedCornerRadius com.bird.baidumapview:roundedCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_roundingBorderColor com.bird.baidumapview:roundingBorderColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_roundingBorderWidth com.bird.baidumapview:roundingBorderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeView_viewAspectRatio com.bird.baidumapview:viewAspectRatio}</code></td><td></td></tr>
            </table>
            @see #GenericDraweeView_actualImageScaleType
            @see #GenericDraweeView_backgroundImage
@@ -3383,7 +3383,7 @@ containing a value of this type.
             0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047
         };
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actualImageScaleType}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actualImageScaleType}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3403,21 +3403,21 @@ containing a value of this type.
 <tr><td><code>centerCrop</code></td><td>6</td><td></td></tr>
 <tr><td><code>focusCrop</code></td><td>7</td><td></td></tr>
 </table>
-          @attr name com.bee.baidumapview:actualImageScaleType
+          @attr name com.bird.baidumapview:actualImageScaleType
         */
         public static int GenericDraweeView_actualImageScaleType = 11;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#backgroundImage}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#backgroundImage}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:backgroundImage
+          @attr name com.bird.baidumapview:backgroundImage
         */
         public static int GenericDraweeView_backgroundImage = 12;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#fadeDuration}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#fadeDuration}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3427,21 +3427,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:fadeDuration
+          @attr name com.bird.baidumapview:fadeDuration
         */
         public static int GenericDraweeView_fadeDuration = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#failureImage}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#failureImage}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:failureImage
+          @attr name com.bird.baidumapview:failureImage
         */
         public static int GenericDraweeView_failureImage = 6;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#failureImageScaleType}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#failureImageScaleType}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3461,31 +3461,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>centerCrop</code></td><td>6</td><td></td></tr>
 <tr><td><code>focusCrop</code></td><td>7</td><td></td></tr>
 </table>
-          @attr name com.bee.baidumapview:failureImageScaleType
+          @attr name com.bird.baidumapview:failureImageScaleType
         */
         public static int GenericDraweeView_failureImageScaleType = 7;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#overlayImage}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#overlayImage}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:overlayImage
+          @attr name com.bird.baidumapview:overlayImage
         */
         public static int GenericDraweeView_overlayImage = 13;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#placeholderImage}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#placeholderImage}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:placeholderImage
+          @attr name com.bird.baidumapview:placeholderImage
         */
         public static int GenericDraweeView_placeholderImage = 2;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#placeholderImageScaleType}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#placeholderImageScaleType}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3505,21 +3505,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>centerCrop</code></td><td>6</td><td></td></tr>
 <tr><td><code>focusCrop</code></td><td>7</td><td></td></tr>
 </table>
-          @attr name com.bee.baidumapview:placeholderImageScaleType
+          @attr name com.bird.baidumapview:placeholderImageScaleType
         */
         public static int GenericDraweeView_placeholderImageScaleType = 3;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#pressedStateOverlayImage}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#pressedStateOverlayImage}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:pressedStateOverlayImage
+          @attr name com.bird.baidumapview:pressedStateOverlayImage
         */
         public static int GenericDraweeView_pressedStateOverlayImage = 14;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#progressBarAutoRotateInterval}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#progressBarAutoRotateInterval}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3529,21 +3529,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:progressBarAutoRotateInterval
+          @attr name com.bird.baidumapview:progressBarAutoRotateInterval
         */
         public static int GenericDraweeView_progressBarAutoRotateInterval = 10;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#progressBarImage}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#progressBarImage}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:progressBarImage
+          @attr name com.bird.baidumapview:progressBarImage
         */
         public static int GenericDraweeView_progressBarImage = 8;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#progressBarImageScaleType}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#progressBarImageScaleType}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3563,21 +3563,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>centerCrop</code></td><td>6</td><td></td></tr>
 <tr><td><code>focusCrop</code></td><td>7</td><td></td></tr>
 </table>
-          @attr name com.bee.baidumapview:progressBarImageScaleType
+          @attr name com.bird.baidumapview:progressBarImageScaleType
         */
         public static int GenericDraweeView_progressBarImageScaleType = 9;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#retryImage}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#retryImage}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:retryImage
+          @attr name com.bird.baidumapview:retryImage
         */
         public static int GenericDraweeView_retryImage = 4;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#retryImageScaleType}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#retryImageScaleType}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3597,11 +3597,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>centerCrop</code></td><td>6</td><td></td></tr>
 <tr><td><code>focusCrop</code></td><td>7</td><td></td></tr>
 </table>
-          @attr name com.bee.baidumapview:retryImageScaleType
+          @attr name com.bird.baidumapview:retryImageScaleType
         */
         public static int GenericDraweeView_retryImageScaleType = 5;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#roundAsCircle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#roundAsCircle}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3611,11 +3611,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:roundAsCircle
+          @attr name com.bird.baidumapview:roundAsCircle
         */
         public static int GenericDraweeView_roundAsCircle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#roundBottomLeft}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#roundBottomLeft}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3625,11 +3625,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:roundBottomLeft
+          @attr name com.bird.baidumapview:roundBottomLeft
         */
         public static int GenericDraweeView_roundBottomLeft = 20;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#roundBottomRight}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#roundBottomRight}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3639,11 +3639,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:roundBottomRight
+          @attr name com.bird.baidumapview:roundBottomRight
         */
         public static int GenericDraweeView_roundBottomRight = 19;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#roundTopLeft}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#roundTopLeft}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3653,11 +3653,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:roundTopLeft
+          @attr name com.bird.baidumapview:roundTopLeft
         */
         public static int GenericDraweeView_roundTopLeft = 17;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#roundTopRight}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#roundTopRight}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3667,11 +3667,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:roundTopRight
+          @attr name com.bird.baidumapview:roundTopRight
         */
         public static int GenericDraweeView_roundTopRight = 18;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#roundWithOverlayColor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#roundWithOverlayColor}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3682,11 +3682,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:roundWithOverlayColor
+          @attr name com.bird.baidumapview:roundWithOverlayColor
         */
         public static int GenericDraweeView_roundWithOverlayColor = 21;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#roundedCornerRadius}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#roundedCornerRadius}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3698,11 +3698,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:roundedCornerRadius
+          @attr name com.bird.baidumapview:roundedCornerRadius
         */
         public static int GenericDraweeView_roundedCornerRadius = 16;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#roundingBorderColor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#roundingBorderColor}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3713,11 +3713,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:roundingBorderColor
+          @attr name com.bird.baidumapview:roundingBorderColor
         */
         public static int GenericDraweeView_roundingBorderColor = 23;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#roundingBorderWidth}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#roundingBorderWidth}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3729,11 +3729,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:roundingBorderWidth
+          @attr name com.bird.baidumapview:roundingBorderWidth
         */
         public static int GenericDraweeView_roundingBorderWidth = 22;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#viewAspectRatio}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#viewAspectRatio}
           attribute's value can be found in the {@link #GenericDraweeView} array.
 
 
@@ -3743,7 +3743,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:viewAspectRatio
+          @attr name com.bird.baidumapview:viewAspectRatio
         */
         public static int GenericDraweeView_viewAspectRatio = 1;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -3757,10 +3757,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.bee.baidumapview:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.bee.baidumapview:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.bee.baidumapview:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.bee.baidumapview:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.bird.baidumapview:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.bird.baidumapview:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.bird.baidumapview:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.bird.baidumapview:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -3808,17 +3808,17 @@ containing a value of this type.
         */
         public static int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:divider
+          @attr name com.bird.baidumapview:divider
         */
         public static int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3830,11 +3830,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:dividerPadding
+          @attr name com.bird.baidumapview:dividerPadding
         */
         public static int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3844,11 +3844,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:measureWithLargestChild
+          @attr name com.bird.baidumapview:measureWithLargestChild
         */
         public static int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3863,7 +3863,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.bee.baidumapview:showDividers
+          @attr name com.bird.baidumapview:showDividers
         */
         public static int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -4002,9 +4002,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.bee.baidumapview:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.bee.baidumapview:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.bee.baidumapview:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.bird.baidumapview:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.bird.baidumapview:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.bird.baidumapview:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -4018,7 +4018,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.bee.baidumapview:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.bird.baidumapview:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -4046,17 +4046,17 @@ containing a value of this type.
             0x7f01004e
         };
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionLayout
+          @attr name com.bird.baidumapview:actionLayout
         */
         public static int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4066,11 +4066,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:actionProviderClass
+          @attr name com.bird.baidumapview:actionProviderClass
         */
         public static int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4080,7 +4080,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:actionViewClass
+          @attr name com.bird.baidumapview:actionViewClass
         */
         public static int MenuItem_actionViewClass = 15;
         /**
@@ -4162,7 +4162,7 @@ containing a value of this type.
         */
         public static int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4178,7 +4178,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.bee.baidumapview:showAsAction
+          @attr name com.bird.baidumapview:showAsAction
         */
         public static int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -4194,7 +4194,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.bee.baidumapview:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.bird.baidumapview:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -4252,7 +4252,7 @@ containing a value of this type.
         */
         public static int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -4262,7 +4262,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:preserveIconSpacing
+          @attr name com.bird.baidumapview:preserveIconSpacing
         */
         public static int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PopupWindow.
@@ -4272,7 +4272,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.bee.baidumapview:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.bird.baidumapview:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -4287,7 +4287,7 @@ containing a value of this type.
         */
         public static int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -4297,7 +4297,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:overlapAnchor
+          @attr name com.bird.baidumapview:overlapAnchor
         */
         public static int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -4306,7 +4306,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.bee.baidumapview:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.bird.baidumapview:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -4314,7 +4314,7 @@ containing a value of this type.
             0x7f010051
         };
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -4324,7 +4324,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:state_above_anchor
+          @attr name com.bird.baidumapview:state_above_anchor
         */
         public static int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -4334,10 +4334,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager com.bee.baidumapview:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout com.bee.baidumapview:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount com.bee.baidumapview:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd com.bee.baidumapview:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager com.bird.baidumapview:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout com.bird.baidumapview:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount com.bird.baidumapview:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd com.bird.baidumapview:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
@@ -4356,7 +4356,7 @@ containing a value of this type.
         */
         public static int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -4366,11 +4366,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:layoutManager
+          @attr name com.bird.baidumapview:layoutManager
         */
         public static int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -4380,11 +4380,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:reverseLayout
+          @attr name com.bird.baidumapview:reverseLayout
         */
         public static int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -4394,11 +4394,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:spanCount
+          @attr name com.bird.baidumapview:spanCount
         */
         public static int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -4408,7 +4408,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:stackFromEnd
+          @attr name com.bird.baidumapview:stackFromEnd
         */
         public static int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a SearchView.
@@ -4421,19 +4421,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.bee.baidumapview:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.bee.baidumapview:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.bee.baidumapview:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.bee.baidumapview:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.bee.baidumapview:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.bee.baidumapview:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.bee.baidumapview:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.bee.baidumapview:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.bee.baidumapview:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.bee.baidumapview:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.bee.baidumapview:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.bee.baidumapview:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.bee.baidumapview:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.bird.baidumapview:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.bird.baidumapview:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.bird.baidumapview:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.bird.baidumapview:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.bird.baidumapview:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.bird.baidumapview:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.bird.baidumapview:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.bird.baidumapview:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.bird.baidumapview:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.bird.baidumapview:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.bird.baidumapview:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.bird.baidumapview:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.bird.baidumapview:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -4485,27 +4485,27 @@ containing a value of this type.
         */
         public static int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:closeIcon
+          @attr name com.bird.baidumapview:closeIcon
         */
         public static int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:commitIcon
+          @attr name com.bird.baidumapview:commitIcon
         */
         public static int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4515,21 +4515,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:defaultQueryHint
+          @attr name com.bird.baidumapview:defaultQueryHint
         */
         public static int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:goIcon
+          @attr name com.bird.baidumapview:goIcon
         */
         public static int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4539,31 +4539,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:iconifiedByDefault
+          @attr name com.bird.baidumapview:iconifiedByDefault
         */
         public static int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:layout
+          @attr name com.bird.baidumapview:layout
         */
         public static int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:queryBackground
+          @attr name com.bird.baidumapview:queryBackground
         */
         public static int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4573,57 +4573,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:queryHint
+          @attr name com.bird.baidumapview:queryHint
         */
         public static int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:searchHintIcon
+          @attr name com.bird.baidumapview:searchHintIcon
         */
         public static int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:searchIcon
+          @attr name com.bird.baidumapview:searchIcon
         */
         public static int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:submitBackground
+          @attr name com.bird.baidumapview:submitBackground
         */
         public static int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:suggestionRowLayout
+          @attr name com.bird.baidumapview:suggestionRowLayout
         */
         public static int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:voiceIcon
+          @attr name com.bird.baidumapview:voiceIcon
         */
         public static int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a Spinner.
@@ -4635,7 +4635,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.bee.baidumapview:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.bird.baidumapview:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_popupBackground
@@ -4664,13 +4664,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int Spinner_android_prompt = 1;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:popupTheme
+          @attr name com.bird.baidumapview:popupTheme
         */
         public static int Spinner_popupTheme = 3;
         /** Attributes that can be used with a SwitchCompat.
@@ -4682,13 +4682,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.bee.baidumapview:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.bee.baidumapview:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.bee.baidumapview:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.bee.baidumapview:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.bee.baidumapview:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.bee.baidumapview:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.bee.baidumapview:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.bird.baidumapview:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.bird.baidumapview:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.bird.baidumapview:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.bird.baidumapview:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.bird.baidumapview:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.bird.baidumapview:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.bird.baidumapview:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -4725,7 +4725,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4735,11 +4735,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:showText
+          @attr name com.bird.baidumapview:showText
         */
         public static int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4749,11 +4749,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:splitTrack
+          @attr name com.bird.baidumapview:splitTrack
         */
         public static int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4765,11 +4765,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:switchMinWidth
+          @attr name com.bird.baidumapview:switchMinWidth
         */
         public static int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4781,21 +4781,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:switchPadding
+          @attr name com.bird.baidumapview:switchPadding
         */
         public static int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:switchTextAppearance
+          @attr name com.bird.baidumapview:switchTextAppearance
         */
         public static int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4807,17 +4807,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:thumbTextPadding
+          @attr name com.bird.baidumapview:thumbTextPadding
         */
         public static int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#track}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:track
+          @attr name com.bird.baidumapview:track
         */
         public static int SwitchCompat_track = 3;
         /** Attributes that can be used with a TextAppearance.
@@ -4834,7 +4834,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.bee.baidumapview:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.bird.baidumapview:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -4900,14 +4900,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.bee.baidumapview:textAllCaps
+          @attr name com.bird.baidumapview:textAllCaps
         */
         public static int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a Theme.
@@ -4916,116 +4916,116 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.bee.baidumapview:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.bee.baidumapview:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.bee.baidumapview:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.bee.baidumapview:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.bee.baidumapview:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.bee.baidumapview:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.bee.baidumapview:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.bee.baidumapview:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.bee.baidumapview:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.bee.baidumapview:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.bee.baidumapview:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.bee.baidumapview:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.bee.baidumapview:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.bee.baidumapview:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.bee.baidumapview:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.bee.baidumapview:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.bee.baidumapview:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.bee.baidumapview:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.bee.baidumapview:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.bee.baidumapview:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.bee.baidumapview:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.bee.baidumapview:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.bee.baidumapview:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.bee.baidumapview:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.bee.baidumapview:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.bee.baidumapview:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.bee.baidumapview:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.bee.baidumapview:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.bee.baidumapview:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.bee.baidumapview:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.bee.baidumapview:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.bee.baidumapview:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.bee.baidumapview:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogStyle com.bee.baidumapview:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogTheme com.bee.baidumapview:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider com.bird.baidumapview:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground com.bird.baidumapview:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme com.bird.baidumapview:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize com.bird.baidumapview:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle com.bird.baidumapview:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle com.bird.baidumapview:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.bird.baidumapview:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle com.bird.baidumapview:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.bird.baidumapview:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme com.bird.baidumapview:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.bird.baidumapview:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle com.bird.baidumapview:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.bird.baidumapview:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.bird.baidumapview:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor com.bird.baidumapview:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground com.bird.baidumapview:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.bird.baidumapview:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.bird.baidumapview:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.bird.baidumapview:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable com.bird.baidumapview:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable com.bird.baidumapview:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable com.bird.baidumapview:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.bird.baidumapview:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.bird.baidumapview:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable com.bird.baidumapview:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground com.bird.baidumapview:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle com.bird.baidumapview:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.bird.baidumapview:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.bird.baidumapview:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.bird.baidumapview:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle com.bird.baidumapview:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.bird.baidumapview:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.bird.baidumapview:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogStyle com.bird.baidumapview:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogTheme com.bird.baidumapview:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.bee.baidumapview:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_borderlessButtonStyle com.bee.baidumapview:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.bee.baidumapview:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.bee.baidumapview:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.bee.baidumapview:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.bee.baidumapview:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.bee.baidumapview:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyle com.bee.baidumapview:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyleSmall com.bee.baidumapview:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkboxStyle com.bee.baidumapview:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkedTextViewStyle com.bee.baidumapview:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.bee.baidumapview:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.bee.baidumapview:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.bee.baidumapview:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.bee.baidumapview:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.bee.baidumapview:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.bee.baidumapview:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.bee.baidumapview:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.bee.baidumapview:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_controlBackground com.bee.baidumapview:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogPreferredPadding com.bee.baidumapview:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogTheme com.bee.baidumapview:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.bee.baidumapview:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.bee.baidumapview:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.bee.baidumapview:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.bee.baidumapview:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.bee.baidumapview:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.bee.baidumapview:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextStyle com.bee.baidumapview:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.bee.baidumapview:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_imageButtonStyle com.bee.baidumapview:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.bee.baidumapview:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listDividerAlertDialog com.bee.baidumapview:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.bee.baidumapview:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.bee.baidumapview:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.bee.baidumapview:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.bee.baidumapview:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.bee.baidumapview:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.bee.baidumapview:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.bee.baidumapview:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.bee.baidumapview:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.bee.baidumapview:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.bee.baidumapview:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.bee.baidumapview:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_radioButtonStyle com.bee.baidumapview:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_ratingBarStyle com.bee.baidumapview:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.bee.baidumapview:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_seekBarStyle com.bee.baidumapview:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.bee.baidumapview:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.bee.baidumapview:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.bee.baidumapview:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.bee.baidumapview:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.bee.baidumapview:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.bee.baidumapview:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.bee.baidumapview:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.bee.baidumapview:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.bee.baidumapview:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.bee.baidumapview:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.bee.baidumapview:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.bee.baidumapview:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.bee.baidumapview:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.bee.baidumapview:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.bee.baidumapview:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.bee.baidumapview:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.bee.baidumapview:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.bee.baidumapview:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.bee.baidumapview:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.bee.baidumapview:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.bee.baidumapview:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.bee.baidumapview:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMajor com.bee.baidumapview:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMinor com.bee.baidumapview:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowNoTitle com.bee.baidumapview:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.bird.baidumapview:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_borderlessButtonStyle com.bird.baidumapview:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.bird.baidumapview:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.bird.baidumapview:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.bird.baidumapview:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.bird.baidumapview:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle com.bird.baidumapview:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyle com.bird.baidumapview:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyleSmall com.bird.baidumapview:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkboxStyle com.bird.baidumapview:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkedTextViewStyle com.bird.baidumapview:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent com.bird.baidumapview:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal com.bird.baidumapview:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated com.bird.baidumapview:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight com.bird.baidumapview:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal com.bird.baidumapview:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary com.bird.baidumapview:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark com.bird.baidumapview:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.bird.baidumapview:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_controlBackground com.bird.baidumapview:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogPreferredPadding com.bird.baidumapview:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogTheme com.bird.baidumapview:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal com.bird.baidumapview:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical com.bird.baidumapview:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle com.bird.baidumapview:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.bird.baidumapview:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground com.bird.baidumapview:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor com.bird.baidumapview:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextStyle com.bird.baidumapview:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator com.bird.baidumapview:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_imageButtonStyle com.bird.baidumapview:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.bird.baidumapview:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listDividerAlertDialog com.bird.baidumapview:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle com.bird.baidumapview:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight com.bird.baidumapview:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.bird.baidumapview:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.bird.baidumapview:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.bird.baidumapview:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.bird.baidumapview:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground com.bird.baidumapview:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.bird.baidumapview:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.bird.baidumapview:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.bird.baidumapview:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle com.bird.baidumapview:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_radioButtonStyle com.bird.baidumapview:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_ratingBarStyle com.bird.baidumapview:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle com.bird.baidumapview:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_seekBarStyle com.bird.baidumapview:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground com.bird.baidumapview:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.bird.baidumapview:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.bird.baidumapview:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle com.bird.baidumapview:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle com.bird.baidumapview:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.bird.baidumapview:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem com.bird.baidumapview:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.bird.baidumapview:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.bird.baidumapview:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.bird.baidumapview:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.bird.baidumapview:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.bird.baidumapview:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl com.bird.baidumapview:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.bird.baidumapview:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle com.bird.baidumapview:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar com.bird.baidumapview:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay com.bird.baidumapview:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay com.bird.baidumapview:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.bird.baidumapview:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.bird.baidumapview:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.bird.baidumapview:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.bird.baidumapview:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMajor com.bird.baidumapview:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMinor com.bird.baidumapview:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowNoTitle com.bird.baidumapview:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -5169,37 +5169,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100d4, 0x7f0100d5
         };
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionBarDivider
+          @attr name com.bird.baidumapview:actionBarDivider
         */
         public static int Theme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionBarItemBackground
+          @attr name com.bird.baidumapview:actionBarItemBackground
         */
         public static int Theme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionBarPopupTheme
+          @attr name com.bird.baidumapview:actionBarPopupTheme
         */
         public static int Theme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5219,111 +5219,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.bee.baidumapview:actionBarSize
+          @attr name com.bird.baidumapview:actionBarSize
         */
         public static int Theme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionBarSplitStyle
+          @attr name com.bird.baidumapview:actionBarSplitStyle
         */
         public static int Theme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionBarStyle
+          @attr name com.bird.baidumapview:actionBarStyle
         */
         public static int Theme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionBarTabBarStyle
+          @attr name com.bird.baidumapview:actionBarTabBarStyle
         */
         public static int Theme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionBarTabStyle
+          @attr name com.bird.baidumapview:actionBarTabStyle
         */
         public static int Theme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionBarTabTextStyle
+          @attr name com.bird.baidumapview:actionBarTabTextStyle
         */
         public static int Theme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionBarTheme
+          @attr name com.bird.baidumapview:actionBarTheme
         */
         public static int Theme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionBarWidgetTheme
+          @attr name com.bird.baidumapview:actionBarWidgetTheme
         */
         public static int Theme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionButtonStyle
+          @attr name com.bird.baidumapview:actionButtonStyle
         */
         public static int Theme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionDropDownStyle
+          @attr name com.bird.baidumapview:actionDropDownStyle
         */
         public static int Theme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionMenuTextAppearance
+          @attr name com.bird.baidumapview:actionMenuTextAppearance
         */
         public static int Theme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5331,181 +5331,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.bee.baidumapview:actionMenuTextColor
+          @attr name com.bird.baidumapview:actionMenuTextColor
         */
         public static int Theme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModeBackground
+          @attr name com.bird.baidumapview:actionModeBackground
         */
         public static int Theme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModeCloseButtonStyle
+          @attr name com.bird.baidumapview:actionModeCloseButtonStyle
         */
         public static int Theme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModeCloseDrawable
+          @attr name com.bird.baidumapview:actionModeCloseDrawable
         */
         public static int Theme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModeCopyDrawable
+          @attr name com.bird.baidumapview:actionModeCopyDrawable
         */
         public static int Theme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModeCutDrawable
+          @attr name com.bird.baidumapview:actionModeCutDrawable
         */
         public static int Theme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModeFindDrawable
+          @attr name com.bird.baidumapview:actionModeFindDrawable
         */
         public static int Theme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModePasteDrawable
+          @attr name com.bird.baidumapview:actionModePasteDrawable
         */
         public static int Theme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModePopupWindowStyle
+          @attr name com.bird.baidumapview:actionModePopupWindowStyle
         */
         public static int Theme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModeSelectAllDrawable
+          @attr name com.bird.baidumapview:actionModeSelectAllDrawable
         */
         public static int Theme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModeShareDrawable
+          @attr name com.bird.baidumapview:actionModeShareDrawable
         */
         public static int Theme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModeSplitBackground
+          @attr name com.bird.baidumapview:actionModeSplitBackground
         */
         public static int Theme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModeStyle
+          @attr name com.bird.baidumapview:actionModeStyle
         */
         public static int Theme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionModeWebSearchDrawable
+          @attr name com.bird.baidumapview:actionModeWebSearchDrawable
         */
         public static int Theme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionOverflowButtonStyle
+          @attr name com.bird.baidumapview:actionOverflowButtonStyle
         */
         public static int Theme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:actionOverflowMenuStyle
+          @attr name com.bird.baidumapview:actionOverflowMenuStyle
         */
         public static int Theme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:activityChooserViewStyle
+          @attr name com.bird.baidumapview:activityChooserViewStyle
         */
         public static int Theme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:alertDialogButtonGroupStyle
+          @attr name com.bird.baidumapview:alertDialogButtonGroupStyle
         */
         public static int Theme_alertDialogButtonGroupStyle = 92;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5515,27 +5515,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:alertDialogCenterButtons
+          @attr name com.bird.baidumapview:alertDialogCenterButtons
         */
         public static int Theme_alertDialogCenterButtons = 93;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:alertDialogStyle
+          @attr name com.bird.baidumapview:alertDialogStyle
         */
         public static int Theme_alertDialogStyle = 91;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:alertDialogTheme
+          @attr name com.bird.baidumapview:alertDialogTheme
         */
         public static int Theme_alertDialogTheme = 94;
         /**
@@ -5551,117 +5551,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:autoCompleteTextViewStyle
+          @attr name com.bird.baidumapview:autoCompleteTextViewStyle
         */
         public static int Theme_autoCompleteTextViewStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:borderlessButtonStyle
+          @attr name com.bird.baidumapview:borderlessButtonStyle
         */
         public static int Theme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:buttonBarButtonStyle
+          @attr name com.bird.baidumapview:buttonBarButtonStyle
         */
         public static int Theme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:buttonBarNegativeButtonStyle
+          @attr name com.bird.baidumapview:buttonBarNegativeButtonStyle
         */
         public static int Theme_buttonBarNegativeButtonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:buttonBarNeutralButtonStyle
+          @attr name com.bird.baidumapview:buttonBarNeutralButtonStyle
         */
         public static int Theme_buttonBarNeutralButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:buttonBarPositiveButtonStyle
+          @attr name com.bird.baidumapview:buttonBarPositiveButtonStyle
         */
         public static int Theme_buttonBarPositiveButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:buttonBarStyle
+          @attr name com.bird.baidumapview:buttonBarStyle
         */
         public static int Theme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#buttonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:buttonStyle
+          @attr name com.bird.baidumapview:buttonStyle
         */
         public static int Theme_buttonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:buttonStyleSmall
+          @attr name com.bird.baidumapview:buttonStyleSmall
         */
         public static int Theme_buttonStyleSmall = 101;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:checkboxStyle
+          @attr name com.bird.baidumapview:checkboxStyle
         */
         public static int Theme_checkboxStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:checkedTextViewStyle
+          @attr name com.bird.baidumapview:checkedTextViewStyle
         */
         public static int Theme_checkedTextViewStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5672,11 +5672,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:colorAccent
+          @attr name com.bird.baidumapview:colorAccent
         */
         public static int Theme_colorAccent = 84;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5687,11 +5687,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:colorButtonNormal
+          @attr name com.bird.baidumapview:colorButtonNormal
         */
         public static int Theme_colorButtonNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5702,11 +5702,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:colorControlActivated
+          @attr name com.bird.baidumapview:colorControlActivated
         */
         public static int Theme_colorControlActivated = 86;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5717,11 +5717,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:colorControlHighlight
+          @attr name com.bird.baidumapview:colorControlHighlight
         */
         public static int Theme_colorControlHighlight = 87;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5732,11 +5732,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:colorControlNormal
+          @attr name com.bird.baidumapview:colorControlNormal
         */
         public static int Theme_colorControlNormal = 85;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5747,11 +5747,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:colorPrimary
+          @attr name com.bird.baidumapview:colorPrimary
         */
         public static int Theme_colorPrimary = 82;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5762,11 +5762,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:colorPrimaryDark
+          @attr name com.bird.baidumapview:colorPrimaryDark
         */
         public static int Theme_colorPrimaryDark = 83;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5777,21 +5777,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:colorSwitchThumbNormal
+          @attr name com.bird.baidumapview:colorSwitchThumbNormal
         */
         public static int Theme_colorSwitchThumbNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#controlBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:controlBackground
+          @attr name com.bird.baidumapview:controlBackground
         */
         public static int Theme_controlBackground = 90;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5803,51 +5803,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:dialogPreferredPadding
+          @attr name com.bird.baidumapview:dialogPreferredPadding
         */
         public static int Theme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#dialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:dialogTheme
+          @attr name com.bird.baidumapview:dialogTheme
         */
         public static int Theme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:dividerHorizontal
+          @attr name com.bird.baidumapview:dividerHorizontal
         */
         public static int Theme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:dividerVertical
+          @attr name com.bird.baidumapview:dividerVertical
         */
         public static int Theme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:dropDownListViewStyle
+          @attr name com.bird.baidumapview:dropDownListViewStyle
         */
         public static int Theme_dropDownListViewStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5859,21 +5859,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:dropdownListPreferredItemHeight
+          @attr name com.bird.baidumapview:dropdownListPreferredItemHeight
         */
         public static int Theme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:editTextBackground
+          @attr name com.bird.baidumapview:editTextBackground
         */
         public static int Theme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5881,71 +5881,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.bee.baidumapview:editTextColor
+          @attr name com.bird.baidumapview:editTextColor
         */
         public static int Theme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#editTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:editTextStyle
+          @attr name com.bird.baidumapview:editTextStyle
         */
         public static int Theme_editTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:homeAsUpIndicator
+          @attr name com.bird.baidumapview:homeAsUpIndicator
         */
         public static int Theme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:imageButtonStyle
+          @attr name com.bird.baidumapview:imageButtonStyle
         */
         public static int Theme_imageButtonStyle = 64;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:listChoiceBackgroundIndicator
+          @attr name com.bird.baidumapview:listChoiceBackgroundIndicator
         */
         public static int Theme_listChoiceBackgroundIndicator = 81;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:listDividerAlertDialog
+          @attr name com.bird.baidumapview:listDividerAlertDialog
         */
         public static int Theme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:listPopupWindowStyle
+          @attr name com.bird.baidumapview:listPopupWindowStyle
         */
         public static int Theme_listPopupWindowStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5957,11 +5957,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:listPreferredItemHeight
+          @attr name com.bird.baidumapview:listPreferredItemHeight
         */
         public static int Theme_listPreferredItemHeight = 69;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5973,11 +5973,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:listPreferredItemHeightLarge
+          @attr name com.bird.baidumapview:listPreferredItemHeightLarge
         */
         public static int Theme_listPreferredItemHeightLarge = 71;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5989,11 +5989,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:listPreferredItemHeightSmall
+          @attr name com.bird.baidumapview:listPreferredItemHeightSmall
         */
         public static int Theme_listPreferredItemHeightSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6005,11 +6005,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:listPreferredItemPaddingLeft
+          @attr name com.bird.baidumapview:listPreferredItemPaddingLeft
         */
         public static int Theme_listPreferredItemPaddingLeft = 72;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6021,31 +6021,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:listPreferredItemPaddingRight
+          @attr name com.bird.baidumapview:listPreferredItemPaddingRight
         */
         public static int Theme_listPreferredItemPaddingRight = 73;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:panelBackground
+          @attr name com.bird.baidumapview:panelBackground
         */
         public static int Theme_panelBackground = 78;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:panelMenuListTheme
+          @attr name com.bird.baidumapview:panelMenuListTheme
         */
         public static int Theme_panelMenuListTheme = 80;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6057,181 +6057,181 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:panelMenuListWidth
+          @attr name com.bird.baidumapview:panelMenuListWidth
         */
         public static int Theme_panelMenuListWidth = 79;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:popupMenuStyle
+          @attr name com.bird.baidumapview:popupMenuStyle
         */
         public static int Theme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:popupWindowStyle
+          @attr name com.bird.baidumapview:popupWindowStyle
         */
         public static int Theme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:radioButtonStyle
+          @attr name com.bird.baidumapview:radioButtonStyle
         */
         public static int Theme_radioButtonStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:ratingBarStyle
+          @attr name com.bird.baidumapview:ratingBarStyle
         */
         public static int Theme_ratingBarStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:searchViewStyle
+          @attr name com.bird.baidumapview:searchViewStyle
         */
         public static int Theme_searchViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:seekBarStyle
+          @attr name com.bird.baidumapview:seekBarStyle
         */
         public static int Theme_seekBarStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:selectableItemBackground
+          @attr name com.bird.baidumapview:selectableItemBackground
         */
         public static int Theme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:selectableItemBackgroundBorderless
+          @attr name com.bird.baidumapview:selectableItemBackgroundBorderless
         */
         public static int Theme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:spinnerDropDownItemStyle
+          @attr name com.bird.baidumapview:spinnerDropDownItemStyle
         */
         public static int Theme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:spinnerStyle
+          @attr name com.bird.baidumapview:spinnerStyle
         */
         public static int Theme_spinnerStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:switchStyle
+          @attr name com.bird.baidumapview:switchStyle
         */
         public static int Theme_switchStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:textAppearanceLargePopupMenu
+          @attr name com.bird.baidumapview:textAppearanceLargePopupMenu
         */
         public static int Theme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:textAppearanceListItem
+          @attr name com.bird.baidumapview:textAppearanceListItem
         */
         public static int Theme_textAppearanceListItem = 76;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:textAppearanceListItemSmall
+          @attr name com.bird.baidumapview:textAppearanceListItemSmall
         */
         public static int Theme_textAppearanceListItemSmall = 77;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:textAppearanceSearchResultSubtitle
+          @attr name com.bird.baidumapview:textAppearanceSearchResultSubtitle
         */
         public static int Theme_textAppearanceSearchResultSubtitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:textAppearanceSearchResultTitle
+          @attr name com.bird.baidumapview:textAppearanceSearchResultTitle
         */
         public static int Theme_textAppearanceSearchResultTitle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:textAppearanceSmallPopupMenu
+          @attr name com.bird.baidumapview:textAppearanceSmallPopupMenu
         */
         public static int Theme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6239,11 +6239,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.bee.baidumapview:textColorAlertDialogListItem
+          @attr name com.bird.baidumapview:textColorAlertDialogListItem
         */
         public static int Theme_textColorAlertDialogListItem = 95;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6251,31 +6251,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.bee.baidumapview:textColorSearchUrl
+          @attr name com.bird.baidumapview:textColorSearchUrl
         */
         public static int Theme_textColorSearchUrl = 67;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:toolbarNavigationButtonStyle
+          @attr name com.bird.baidumapview:toolbarNavigationButtonStyle
         */
         public static int Theme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:toolbarStyle
+          @attr name com.bird.baidumapview:toolbarStyle
         */
         public static int Theme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6285,11 +6285,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:windowActionBar
+          @attr name com.bird.baidumapview:windowActionBar
         */
         public static int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6299,11 +6299,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:windowActionBarOverlay
+          @attr name com.bird.baidumapview:windowActionBarOverlay
         */
         public static int Theme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6313,11 +6313,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:windowActionModeOverlay
+          @attr name com.bird.baidumapview:windowActionModeOverlay
         */
         public static int Theme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6332,11 +6332,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:windowFixedHeightMajor
+          @attr name com.bird.baidumapview:windowFixedHeightMajor
         */
         public static int Theme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6351,11 +6351,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:windowFixedHeightMinor
+          @attr name com.bird.baidumapview:windowFixedHeightMinor
         */
         public static int Theme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6370,11 +6370,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:windowFixedWidthMajor
+          @attr name com.bird.baidumapview:windowFixedWidthMajor
         */
         public static int Theme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6389,11 +6389,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:windowFixedWidthMinor
+          @attr name com.bird.baidumapview:windowFixedWidthMinor
         */
         public static int Theme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6408,11 +6408,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:windowMinWidthMajor
+          @attr name com.bird.baidumapview:windowMinWidthMajor
         */
         public static int Theme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6427,11 +6427,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:windowMinWidthMinor
+          @attr name com.bird.baidumapview:windowMinWidthMinor
         */
         public static int Theme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6441,7 +6441,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:windowNoTitle
+          @attr name com.bird.baidumapview:windowNoTitle
         */
         public static int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
@@ -6452,29 +6452,29 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.bee.baidumapview:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.bee.baidumapview:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.bee.baidumapview:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.bee.baidumapview:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.bee.baidumapview:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.bee.baidumapview:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.bee.baidumapview:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.bee.baidumapview:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.bee.baidumapview:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.bee.baidumapview:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.bee.baidumapview:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.bee.baidumapview:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.bee.baidumapview:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.bee.baidumapview:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.bee.baidumapview:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.bee.baidumapview:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.bee.baidumapview:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.bee.baidumapview:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.bee.baidumapview:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.bee.baidumapview:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.bee.baidumapview:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.bee.baidumapview:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.bee.baidumapview:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.bird.baidumapview:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.bird.baidumapview:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.bird.baidumapview:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.bird.baidumapview:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.bird.baidumapview:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.bird.baidumapview:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.bird.baidumapview:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.bird.baidumapview:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.bird.baidumapview:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.bird.baidumapview:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.bird.baidumapview:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.bird.baidumapview:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.bird.baidumapview:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.bird.baidumapview:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.bird.baidumapview:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.bird.baidumapview:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.bird.baidumapview:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.bird.baidumapview:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.bird.baidumapview:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.bird.baidumapview:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.bird.baidumapview:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.bird.baidumapview:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.bird.baidumapview:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -6524,7 +6524,7 @@ containing a value of this type.
         */
         public static int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6534,21 +6534,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:collapseContentDescription
+          @attr name com.bird.baidumapview:collapseContentDescription
         */
         public static int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:collapseIcon
+          @attr name com.bird.baidumapview:collapseIcon
         */
         public static int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6560,11 +6560,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:contentInsetEnd
+          @attr name com.bird.baidumapview:contentInsetEnd
         */
         public static int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6576,11 +6576,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:contentInsetLeft
+          @attr name com.bird.baidumapview:contentInsetLeft
         */
         public static int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6592,11 +6592,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:contentInsetRight
+          @attr name com.bird.baidumapview:contentInsetRight
         */
         public static int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6608,21 +6608,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:contentInsetStart
+          @attr name com.bird.baidumapview:contentInsetStart
         */
         public static int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:logo
+          @attr name com.bird.baidumapview:logo
         */
         public static int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6632,11 +6632,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:logoDescription
+          @attr name com.bird.baidumapview:logoDescription
         */
         public static int Toolbar_logoDescription = 22;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6648,11 +6648,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:maxButtonHeight
+          @attr name com.bird.baidumapview:maxButtonHeight
         */
         public static int Toolbar_maxButtonHeight = 17;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6662,31 +6662,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:navigationContentDescription
+          @attr name com.bird.baidumapview:navigationContentDescription
         */
         public static int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:navigationIcon
+          @attr name com.bird.baidumapview:navigationIcon
         */
         public static int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:popupTheme
+          @attr name com.bird.baidumapview:popupTheme
         */
         public static int Toolbar_popupTheme = 9;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6696,21 +6696,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:subtitle
+          @attr name com.bird.baidumapview:subtitle
         */
         public static int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:subtitleTextAppearance
+          @attr name com.bird.baidumapview:subtitleTextAppearance
         */
         public static int Toolbar_subtitleTextAppearance = 11;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6721,11 +6721,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:subtitleTextColor
+          @attr name com.bird.baidumapview:subtitleTextColor
         */
         public static int Toolbar_subtitleTextColor = 24;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#title}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6735,11 +6735,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:title
+          @attr name com.bird.baidumapview:title
         */
         public static int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6751,11 +6751,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:titleMarginBottom
+          @attr name com.bird.baidumapview:titleMarginBottom
         */
         public static int Toolbar_titleMarginBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6767,11 +6767,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:titleMarginEnd
+          @attr name com.bird.baidumapview:titleMarginEnd
         */
         public static int Toolbar_titleMarginEnd = 14;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6783,11 +6783,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:titleMarginStart
+          @attr name com.bird.baidumapview:titleMarginStart
         */
         public static int Toolbar_titleMarginStart = 13;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6799,11 +6799,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:titleMarginTop
+          @attr name com.bird.baidumapview:titleMarginTop
         */
         public static int Toolbar_titleMarginTop = 15;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6815,21 +6815,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:titleMargins
+          @attr name com.bird.baidumapview:titleMargins
         */
         public static int Toolbar_titleMargins = 12;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:titleTextAppearance
+          @attr name com.bird.baidumapview:titleTextAppearance
         */
         public static int Toolbar_titleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6840,7 +6840,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:titleTextColor
+          @attr name com.bird.baidumapview:titleTextColor
         */
         public static int Toolbar_titleTextColor = 23;
         /** Attributes that can be used with a View.
@@ -6851,9 +6851,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.bee.baidumapview:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.bee.baidumapview:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.bee.baidumapview:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.bird.baidumapview:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.bird.baidumapview:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.bird.baidumapview:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -6878,7 +6878,7 @@ containing a value of this type.
         */
         public static int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6890,11 +6890,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:paddingEnd
+          @attr name com.bird.baidumapview:paddingEnd
         */
         public static int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6906,17 +6906,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:paddingStart
+          @attr name com.bird.baidumapview:paddingStart
         */
         public static int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.bee.baidumapview:theme
+          @attr name com.bird.baidumapview:theme
         */
         public static int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -6926,8 +6926,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.bee.baidumapview:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.bee.baidumapview:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.bird.baidumapview:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.bird.baidumapview:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -6943,7 +6943,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -6954,11 +6954,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.bee.baidumapview:backgroundTint
+          @attr name com.bird.baidumapview:backgroundTint
         */
         public static int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.bee.baidumapview.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.bird.baidumapview.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -6974,7 +6974,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.bee.baidumapview:backgroundTintMode
+          @attr name com.bird.baidumapview:backgroundTintMode
         */
         public static int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
