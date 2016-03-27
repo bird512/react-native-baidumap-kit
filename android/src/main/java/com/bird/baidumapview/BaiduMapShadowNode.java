@@ -1,4 +1,4 @@
-package com.bee.baidumapview;
+package com.bird.baidumapview;
 
 import com.facebook.csslayout.CSSNode;
 import com.facebook.csslayout.MeasureOutput;

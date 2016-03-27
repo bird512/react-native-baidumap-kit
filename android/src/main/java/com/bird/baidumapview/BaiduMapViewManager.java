@@ -1,4 +1,4 @@
-package com.bee.baidumapview;
+package com.bird.baidumapview;
 
 import android.app.Activity;
 import android.util.Log;
