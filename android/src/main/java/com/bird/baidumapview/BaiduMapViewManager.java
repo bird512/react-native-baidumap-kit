@@ -71,6 +71,19 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
     public String getName() {
         return RCT_CLASS;
     }
+
+    @Override
+    protected MapView createViewInstance(ThemedReactContext reactContext) {
+        this.context = reactContext;
+        MapView mapView = new MapView(mActivity);
+        addChangeListener(mapView);
+        addMarkClickListener(mapView);
+        this.mapView = mapView;
+        return mapView;
+
+        //return new MapView(reactContext);
+    }
+
     /**
      * 地图模式
      *
@@ -85,6 +98,13 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
         mapView.getMap().setMapType(type);
     }
 
+    @ReactProp(name="zoom", defaultInt = 18)
+    public void setZoom(MapView mapView, int type){
+        Log.i(TAG, "setZoom:" + type);
+        MapStatus.Builder builder = new MapStatus.Builder();
+        builder.zoom(type);
+        mapView.getMap().animateMapStatus(MapStatusUpdateFactory.newMapStatus(builder.build()));
+    }
     /**
      * 实时交通图
      *
@@ -238,17 +258,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
 
     }
 
-    @Override
-    protected MapView createViewInstance(ThemedReactContext reactContext) {
-        this.context = reactContext;
-        MapView mapView = new MapView(mActivity);
-        addChangeListener(mapView);
-        addMarkClickListener(mapView);
-        this.mapView = mapView;
-        return mapView;
 
-        //return new MapView(reactContext);
-    }
 
     private void fireEvent(WritableMap event){
        context.getJSModule(RCTEventEmitter.class).receiveEvent(

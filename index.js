@@ -5,6 +5,7 @@ var iface = {
   propTypes: {
     ...View.propTypes,
     mode: PropTypes.number,
+    zoom: PropTypes.number,
     trafficEnabled: PropTypes.bool,
     heatMapEnabled: PropTypes.bool,
     locationEnabled: PropTypes.bool,
