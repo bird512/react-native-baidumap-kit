@@ -63,7 +63,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
     }
 
     public BaiduMapViewManager(Activity activity) {
-        Log.i(TAG, "BaiduMapViewManager activity:" + activity);
+        Log.e(TAG, "BaiduMapViewManager activity:" + activity);
         mActivity = activity;
     }
 
@@ -94,13 +94,13 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
      */
     @ReactProp(name="mode", defaultInt = 1)
     public void setMode(MapView mapView, int type) {
-        Log.i(TAG, "mode:" + type);
+        Log.e(TAG, "mode:" + type);
         mapView.getMap().setMapType(type);
     }
 
     @ReactProp(name="zoom", defaultInt = 18)
     public void setZoom(MapView mapView, int type){
-        Log.i(TAG, "setZoom:" + type);
+        Log.e(TAG, "setZoom:" + type);
         MapStatus.Builder builder = new MapStatus.Builder();
         builder.zoom(type);
         mapView.getMap().animateMapStatus(MapStatusUpdateFactory.newMapStatus(builder.build()));
@@ -113,7 +113,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
      */
     @ReactProp(name="trafficEnabled", defaultBoolean = false)
     public void setTrafficEnabled(MapView mapView, boolean isEnabled) {
-        Log.d(TAG, "trafficEnabled:" + isEnabled);
+        Log.e(TAG, "trafficEnabled:" + isEnabled);
         mapView.getMap().setTrafficEnabled(isEnabled);
     }
 
@@ -125,7 +125,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
      */
     @ReactProp(name="heatMapEnabled", defaultBoolean = false)
     public void setHeatMapEnabled(MapView mapView, boolean isEnabled) {
-        Log.d(TAG, "heatMapEnabled" + isEnabled);
+        Log.e(TAG, "heatMapEnabled" + isEnabled);
         mapView.getMap().setBaiduHeatMapEnabled(isEnabled);
     }
 
@@ -138,7 +138,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
      */
     @ReactProp(name="marker")
     public void setMarker(MapView mapView, ReadableArray array) {
-        Log.d(TAG, "marker:" + array);
+        Log.e(TAG, "marker:" + array);
         if (array != null) {
             mapView.getMap().clear();
             if(_markerList == null){
@@ -176,7 +176,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
      */
     @ReactProp(name="markerlinesEnabled", defaultBoolean = false)
     public void markerlinesEnabled(MapView mapView, boolean isEnabled) {
-        Log.d(TAG, "drawLines:" + isEnabled);
+        Log.e(TAG, "drawLines:" + isEnabled);
         this._lineEnabled = isEnabled;
         if (isEnabled && _markerList != null && _markerList.size()>1) {
             OverlayOptions ooPolyline1 = new PolylineOptions().width(10)
@@ -187,7 +187,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
     }
     @ReactProp(name="tips")
     public void showTips(MapView mapView,ReadableArray array){
-        Log.d(TAG, "showTips:" + array);
+        Log.e(TAG, "showTips:" + array);
         if(array != null && array.size()>1){
             String text = array.getString(0);
             ReadableArray positon = array.getArray(1);
@@ -213,7 +213,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
      */
     @ReactProp(name="center")
     public void setCenter(MapView mapView, ReadableArray array) {
-        Log.d(TAG, "center:" + array);
+        Log.e(TAG, "center:" + array);
         if (array != null && array.size()>1) {//
 
             LatLng cenpt = new LatLng(array.getDouble(0), array.getDouble(1)); 
