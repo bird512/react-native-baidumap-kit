@@ -2,9 +2,15 @@ package com.bird.baidumapview;
 
 import android.app.Activity;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.baidu.mapapi.map.BitmapDescriptor;
 import com.baidu.mapapi.map.BitmapDescriptorFactory;
+import com.baidu.mapapi.map.InfoWindow;
 import com.baidu.mapapi.map.MapView;
 import com.baidu.mapapi.map.MarkerOptions;
 import com.baidu.mapapi.map.OverlayOptions;
@@ -27,6 +33,12 @@ import com.baidu.mapapi.model.LatLngBounds;
 import com.baidu.mapapi.map.Marker;
 import com.baidu.mapapi.map.BaiduMap.OnMarkerClickListener;
 
+import com.baidu.mapapi.search.core.SearchResult;
+import com.baidu.mapapi.search.geocode.GeoCodeResult;
+import com.baidu.mapapi.search.geocode.GeoCoder;
+import com.baidu.mapapi.search.geocode.OnGetGeoCoderResultListener;
+import com.baidu.mapapi.search.geocode.ReverseGeoCodeOption;
+import com.baidu.mapapi.search.geocode.ReverseGeoCodeResult;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.uimanager.LayoutShadowNode;
 //import com.facebook.react.uimanager.ReactProp;
@@ -79,6 +91,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
         addChangeListener(mapView);
         addMarkClickListener(mapView);
         this.mapView = mapView;
+        Log.e(TAG, "createViewInstance:" + mapView);
         return mapView;
 
         //return new MapView(reactContext);
@@ -169,7 +182,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
     }
 
     /**
-     * 实时道路热力图
+     *
      *
      * @param mapView
      * @param isEnabled
@@ -189,9 +202,23 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
     public void showTips(MapView mapView,ReadableArray array){
         Log.e(TAG, "showTips:" + array);
         if(array != null && array.size()>1){
-            String text = array.getString(0);
+
+            String text = array.getString(0);//.replaceAll("aa",System.lineSeparator());
             ReadableArray positon = array.getArray(1);
             LatLng llText = new LatLng(positon.getDouble(0), positon.getDouble(1));
+            if(true){
+                View view = LayoutInflater.from(context).inflate(R.layout.overlay_popup1,null);
+                TextView text_title = (TextView) view.findViewById(R.id.marker_title);
+                TextView text_text = (TextView) view.findViewById(R.id.marker_text);
+                text_title.setText("Title");
+                text_text.setText( text);
+                InfoWindow mInfoWindow = new InfoWindow(view, llText, -47);
+
+                mapView.getMap().showInfoWindow(mInfoWindow);
+                return;
+            }
+
+/*
             OverlayOptions textOption = new TextOptions()
                     .bgColor(0xAAFFFF00)
                     .fontSize(24)
@@ -200,9 +227,11 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
                     .position(llText);
 
             mapView.getMap().addOverlay(textOption);
+*/
         }
 
     }
+
 
 
     /**
@@ -250,6 +279,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
                 option.setScanSpan(1000);
                 mLocClient.setLocOption(option);              
             }
+            myListener.resetFlag();
             mLocClient.start();         //TODO mLocClient.stop(); when distory
         }else{
             if(mLocClient != null)
@@ -286,11 +316,12 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
         boundArray.pushArray(southwest);
 
         event.putString("type", "change");
-        event.putDouble("zoom",status.zoom);
+        event.putDouble("zoom", status.zoom);
         event.putArray("bound",boundArray);
         fireEvent(event);
     }
 
+    private WritableMap lastMarkerClickEvent;
     protected void handleMarkerClick(Marker marker){
         Log.e(TAG, "handleMarkerClick:" );
         WritableMap event = Arguments.createMap();
@@ -301,8 +332,50 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
         
         event.putString("type", "markerClick");
         event.putArray("marker",postion);
-        fireEvent(event);       
+        lastMarkerClickEvent = event;
+        fireEvent(event);
+        getGeoCoder().reverseGeoCode(new ReverseGeoCodeOption().location(marker.getPosition()));
     }
+
+    private GeoCoder geoCoder;
+    protected GeoCoder getGeoCoder() {
+        if(geoCoder == null) {
+            // 创建地理编码检索实例
+            geoCoder = GeoCoder.newInstance();
+            //
+            OnGetGeoCoderResultListener listener = new OnGetGeoCoderResultListener() {
+                // 反地理编码查询结果回调函数
+                @Override
+                public void onGetReverseGeoCodeResult(ReverseGeoCodeResult result) {
+                    if (result == null || result.error != SearchResult.ERRORNO.NO_ERROR) {
+                        // 没有检测到结果
+                    } else {
+                        Log.e(TAG, "onGetReverseGeoCodeResult:"+result.getAddress() );
+                        if(lastMarkerClickEvent != null){
+                            lastMarkerClickEvent.putString("addr",result.getAddress());
+                            fireEvent(lastMarkerClickEvent);
+                        }
+                        lastMarkerClickEvent = null;
+                    }
+                }
+
+                // 地理编码查询结果回调函数
+                @Override
+                public void onGetGeoCodeResult(GeoCodeResult result) {
+                    if (result == null
+                            || result.error != SearchResult.ERRORNO.NO_ERROR) {
+                        // 没有检测到结果
+                    }
+                }
+            };
+            geoCoder.setOnGetGeoCodeResultListener(listener);
+        }
+        return  geoCoder;
+        //TODO:
+        // 释放地理编码检索实例
+        // geoCoder.destroy();
+    }
+
 
     protected void addChangeListener(MapView mapView){
        mapView.getMap().setOnMapStatusChangeListener(new OnMapStatusChangeListener() {
@@ -329,12 +402,15 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
         });      
     }
 
-    boolean isFirstLoc = true; // 是否首次定位
+
     /**
      * 定位SDK监听函数
      */
     public class MyLocationListenner implements BDLocationListener {
-
+        boolean isFirstLoc = true; // 是否首次定位
+        public void resetFlag(){
+            isFirstLoc = true;
+        }
         @Override
         public void onReceiveLocation(BDLocation location) {
             // map view 销毁后不在处理新接收的位置
@@ -348,12 +424,14 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
                     .longitude(location.getLongitude()).build();
             mapView.getMap().setMyLocationData(locData);
             if (isFirstLoc) {
+                Log.e(TAG, "onReceiveLocation first time:" );
                 isFirstLoc = false;
                 LatLng ll = new LatLng(location.getLatitude(),
                         location.getLongitude());
                 MapStatus.Builder builder = new MapStatus.Builder();
                 builder.target(ll);//.zoom(18.0f);
                 mapView.getMap().animateMapStatus(MapStatusUpdateFactory.newMapStatus(builder.build()));
+                handleStatusChange(mapView.getMap().getMapStatus());
             }
         }
 
