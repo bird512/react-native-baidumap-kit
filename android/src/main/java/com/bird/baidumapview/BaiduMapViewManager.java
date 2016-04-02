@@ -198,42 +198,75 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
 
         }
     }
+
+    private TextView tipsView = null;
     @ReactProp(name="tips")
-    public void showTips(MapView mapView,ReadableArray array){
+    public void showTips(final MapView mapView,ReadableArray array){
         Log.e(TAG, "showTips:" + array);
         if(array != null && array.size()>1){
-
-            String text = array.getString(0);//.replaceAll("aa",System.lineSeparator());
+            String text = array.getString(0);
             ReadableArray positon = array.getArray(1);
             LatLng llText = new LatLng(positon.getDouble(0), positon.getDouble(1));
-            if(true){
-                View view = LayoutInflater.from(context).inflate(R.layout.overlay_popup1,null);
-                TextView text_title = (TextView) view.findViewById(R.id.marker_title);
-                TextView text_text = (TextView) view.findViewById(R.id.marker_text);
-                text_title.setText("Title");
-                text_text.setText( text);
-                InfoWindow mInfoWindow = new InfoWindow(view, llText, -47);
-
-                mapView.getMap().showInfoWindow(mInfoWindow);
-                return;
+            int yOffset = -50;
+            if(array.size()>=3){
+                yOffset = (int)(array.getDouble(2));
             }
-
-/*
-            OverlayOptions textOption = new TextOptions()
-                    .bgColor(0xAAFFFF00)
-                    .fontSize(24)
-                    .fontColor(0xFFFF00FF)
-                    .text(text)
-                    .position(llText);
-
-            mapView.getMap().addOverlay(textOption);
-*/
+            if(tipsView == null){
+                tipsView = new TextView(mActivity);
+                tipsView.setBackgroundColor(0xffffffff);
+                tipsView.setPadding(30, 20, 30, 50);
+                tipsView.setTextColor(0xff000000);
+                tipsView.setOnClickListener(new View.OnClickListener() {
+                    public void onClick(View v) {
+                        mapView.getMap().hideInfoWindow();
+                    }
+                });
+            }
+            tipsView.setText(text);
+            mapView.getMap().showInfoWindow(new InfoWindow(tipsView, llText, yOffset));
+            ((ViewGroup) tipsView.getParent()).removeView(tipsView);
         }
-
     }
 
+/*
+    public boolean onMarkerClick(final Marker marker)
+    {
+        //获得marker中的数据
+        Info info = (Info) marker.getExtraInfo().get("info");
 
+        InfoWindow mInfoWindow;
+        //生成一个TextView用户在地图中显示InfoWindow
+        TextView location = new TextView(getApplicationContext());
+        location.setBackgroundResource(R.drawable.location_tips);
+        location.setPadding(30, 20, 30, 50);
+        location.setText(info.getName());
+        //将marker所在的经纬度的信息转化成屏幕上的坐标
+        final LatLng ll = marker.getPosition();
+        Point p = mBaiduMap.getProjection().toScreenLocation(ll);
+        Log.e(TAG, "--!" + p.x + " , " + p.y);
+        p.y -= 47;
+        LatLng llInfo = mBaiduMap.getProjection().fromScreenLocation(p);
+        //为弹出的InfoWindow添加点击事件
+        mInfoWindow = new InfoWindow(location, llInfo,
+                new OnInfoWindowClickListener()
+                {
 
+                    @Override
+                    public void onInfoWindowClick()
+                    {
+                        //隐藏InfoWindow
+                        mBaiduMap.hideInfoWindow();
+                    }
+                });
+        //显示InfoWindow
+        mBaiduMap.showInfoWindow(mInfoWindow);
+        //设置详细信息布局为可见
+        mMarkerInfoLy.setVisibility(View.VISIBLE);
+        //根据商家信息为详细信息布局设置信息
+        popupInfo(mMarkerInfoLy, info);
+        return true;
+    }
+/*
     /**
      * 显示地理标记
      *
@@ -333,7 +366,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
         event.putString("type", "markerClick");
         event.putArray("marker",postion);
         lastMarkerClickEvent = event;
-        fireEvent(event);
+        //fireEvent(event);
         getGeoCoder().reverseGeoCode(new ReverseGeoCodeOption().location(marker.getPosition()));
     }
 
@@ -347,16 +380,16 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
                 // 反地理编码查询结果回调函数
                 @Override
                 public void onGetReverseGeoCodeResult(ReverseGeoCodeResult result) {
+                    if(lastMarkerClickEvent == null)return;
                     if (result == null || result.error != SearchResult.ERRORNO.NO_ERROR) {
                         // 没有检测到结果
+                        lastMarkerClickEvent.putString("addr","没有检测到地址");
                     } else {
-                        Log.e(TAG, "onGetReverseGeoCodeResult:"+result.getAddress() );
-                        if(lastMarkerClickEvent != null){
-                            lastMarkerClickEvent.putString("addr",result.getAddress());
-                            fireEvent(lastMarkerClickEvent);
-                        }
-                        lastMarkerClickEvent = null;
+                        Log.e(TAG, "onGetReverseGeoCodeResult:" + result.getAddress());
+                        lastMarkerClickEvent.putString("addr",result.getAddress());
                     }
+                    fireEvent(lastMarkerClickEvent);
+                    lastMarkerClickEvent = null;
                 }
 
                 // 地理编码查询结果回调函数
