@@ -12,6 +12,7 @@ var iface = {
     markerlinesEnabled:PropTypes.bool,
     tips:PropTypes.array,
     marker:PropTypes.array,
+    polyline:PropTypes.array,
     center:PropTypes.array,
     onChange:PropTypes.func
   }
