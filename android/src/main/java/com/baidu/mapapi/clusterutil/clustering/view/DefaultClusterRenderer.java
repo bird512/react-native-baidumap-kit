@@ -21,6 +21,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.os.MessageQueue;
+import android.util.Log;
 import android.util.SparseArray;
 import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
@@ -92,7 +93,7 @@ public class DefaultClusterRenderer<T extends ClusterItem> implements
     /**
      * If cluster size is less than this size, display individual markers.
      */
-    private static final int MIN_CLUSTER_SIZE = 4;
+    private static final int MIN_CLUSTER_SIZE = 10;
 
     /**
      * The currently displayed set of clusters.
@@ -132,6 +133,7 @@ public class DefaultClusterRenderer<T extends ClusterItem> implements
         mClusterManager.getMarkerCollection().setOnMarkerClickListener(new BaiduMap.OnMarkerClickListener() {
             @Override
             public boolean onMarkerClick(Marker marker) {
+                Log.e("BaiduMap clusterRender","onMarkerClick marker = "+marker);
                 return mItemClickListener != null && mItemClickListener.onClusterItemClick(mMarkerCache.get(marker));
             }
         });
@@ -269,10 +271,14 @@ public class DefaultClusterRenderer<T extends ClusterItem> implements
     }
 
     /**
-     * Determine whether the cluster should be rendered as individual markers or a cluster.
+     * Determine whether the cluster should be rendered as individual markers or a cluster.[Lei]
      */
     protected boolean shouldRenderAsCluster(Cluster<T> cluster) {
-        return cluster.getSize() > MIN_CLUSTER_SIZE;
+        if(mMap.getMapStatus().zoom <= 10 && cluster.getSize() > MIN_CLUSTER_SIZE){
+            return true;
+        }
+        return false;
+        //return cluster.getSize() > MIN_CLUSTER_SIZE;
     }
 
     /**
@@ -708,7 +714,7 @@ public class DefaultClusterRenderer<T extends ClusterItem> implements
             mIcons.put(bucket, descriptor);
         }
         // TODO: consider adding anchor(.5, .5) (Individual markers will overlap more often)
-        markerOptions.icon(descriptor);
+        markerOptions.icon(descriptor).title("cluster");
     }
 
     /**

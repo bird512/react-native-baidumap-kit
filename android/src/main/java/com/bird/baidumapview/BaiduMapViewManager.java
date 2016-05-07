@@ -1,6 +1,7 @@
 package com.bird.baidumapview;
 
 import android.app.Activity;
+import android.graphics.BitmapFactory;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,11 +9,16 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.baidu.mapapi.clusterutil.clustering.ClusterItem;
+import com.baidu.mapapi.clusterutil.clustering.ClusterManager;
+import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptor;
 import com.baidu.mapapi.map.BitmapDescriptorFactory;
 import com.baidu.mapapi.map.InfoWindow;
+import com.baidu.mapapi.map.MapPoi;
 import com.baidu.mapapi.map.MapView;
 import com.baidu.mapapi.map.MarkerOptions;
+import com.baidu.mapapi.map.Overlay;
 import com.baidu.mapapi.map.OverlayOptions;
 import com.baidu.mapapi.map.PolygonOptions;
 import com.baidu.mapapi.map.Polyline;
@@ -63,7 +69,8 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
     protected Activity mActivity;
     protected ThemedReactContext context;
     private boolean _lineEnabled = false;
-    private ArrayList<LatLng> _markerList;
+    private ArrayList<Marker> _markerList;
+    private MarkerGenerator markerGenerator = new MarkerGenerator();
     @Override
     public LayoutShadowNode createShadowNodeInstance() {
         return new BaiduMapShadowNode();
@@ -88,6 +95,11 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
     protected MapView createViewInstance(ThemedReactContext reactContext) {
         this.context = reactContext;
         MapView mapView = new MapView(mActivity);
+
+        mClusterManager = new ClusterManager<MyItem>(mActivity, mapView.getMap());
+
+        //mapView.getMap().setOnMapStatusChangeListener(mClusterManager);
+        //mapView.getMap().setOnMarkerClickListener(mClusterManager);
         addChangeListener(mapView);
         addMarkClickListener(mapView);
         this.mapView = mapView;
@@ -143,6 +155,29 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
     }
 
 
+    private ClusterManager<MyItem> mClusterManager;
+    /**
+     * 每个Marker点，包含Marker点坐标以及图标
+     */
+    public class MyItem implements ClusterItem {
+        private final LatLng mPosition;
+        private int mIndex;
+        public MyItem(LatLng latLng,int index) {
+            mPosition = latLng;
+            mIndex = index;
+        }
+
+        @Override
+        public LatLng getPosition() {
+            return mPosition;
+        }
+
+        @Override
+        public BitmapDescriptor getBitmapDescriptor() {
+            return  markerGenerator.getIcon(mIndex);
+            //return BitmapDescriptorFactory.fromResource(R.drawable.icon_gcoding);
+        }
+    }
     /**
      * 显示地理标记
      *
@@ -151,9 +186,12 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
      */
     @ReactProp(name="marker")
     public void setMarker(MapView mapView, ReadableArray array) {
+
+        List<MyItem> items = new ArrayList<MyItem>();
+
         Log.e(TAG, "marker:" + array);
         if (array != null) {
-            mapView.getMap().clear();
+            //mapView.getMap().clear();
             if(_markerList == null){
                 _markerList = new ArrayList();
             }else{
@@ -163,41 +201,69 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
                 ReadableArray sub = array.getArray(i);
                 //定义Maker坐标点
                 LatLng point = new LatLng(sub.getDouble(0), sub.getDouble(1));
-                _markerList.add(point);
-                //构建Marker图标
-                BitmapDescriptor bitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_gcoding);
+
                 //构建MarkerOption，用于在地图上添加Marker
                 OverlayOptions option = new MarkerOptions()
                         .position(point)
-                        .icon(bitmap)
-                        .draggable(true);
+                        .icon(markerGenerator.getIcon(i));
+
                 //在地图上添加Marker，并显示
-                mapView.getMap().addOverlay(option);
+                //_markerList.add((Marker)mapView.getMap().addOverlay(option));
+
+
+                items.add(new MyItem(point,i));
+
             }
-            if(_lineEnabled){
-                this.markerlinesEnabled(mapView, true);
-            }
+            mClusterManager.clearItems();
+            mClusterManager.addItems(items);
+            mClusterManager.cluster();
 
         }
     }
 
     /**
      *
-     *
+     *--removed
      * @param mapView
      * @param isEnabled
      */
     @ReactProp(name="markerlinesEnabled", defaultBoolean = false)
     public void markerlinesEnabled(MapView mapView, boolean isEnabled) {
         Log.e(TAG, "drawLines:" + isEnabled);
+        /*
         this._lineEnabled = isEnabled;
         if (isEnabled && _markerList != null && _markerList.size()>1) {
-            OverlayOptions ooPolyline1 = new PolylineOptions().width(10)
-                    .color(0xAAFF0000).points(_markerList);
+            OverlayOptions ooPolyline1 = new PolylineOptions().width(2)
+                    .color(0xAA0026FF).points(_markerList);
             mapView.getMap().addOverlay(ooPolyline1);
 
         }
+        */
     }
+
+    /**
+     *
+     *
+     * @param mapView
+     * @param array
+     */
+    @ReactProp(name="polyline")
+    public void setPolyline(MapView mapView, ReadableArray array) {
+        Log.e(TAG, "polylines:" + array);
+        if(array != null && array.size()>1) {
+            ArrayList list = new ArrayList();
+            for (int i = 0; i < array.size(); i++) {
+                ReadableArray sub = array.getArray(i);
+                LatLng point = new LatLng(sub.getDouble(0), sub.getDouble(1));
+                list.add(point);
+            }
+
+            OverlayOptions ooPolyline1 = new PolylineOptions().width(10)
+                    .color(0xAA0026FF).points(list);
+            mapView.getMap().addOverlay(ooPolyline1);
+        }
+    }
+
 
     private TextView tipsView = null;
     @ReactProp(name="tips")
@@ -301,6 +367,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
      */
     @ReactProp(name="locationEnabled",defaultBoolean = false)
     public void setLocationEnabled(MapView mapView, boolean isEnabled){
+        Log.e(TAG,"setLocationEnabled: " +isEnabled);
         if(isEnabled){
             mapView.getMap().setMyLocationEnabled(true);
             if(mLocClient == null){
@@ -309,10 +376,13 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
                 LocationClientOption option = new LocationClientOption();
                 option.setOpenGps(true); // 打开gps
                 option.setCoorType("bd09ll"); // 设置坐标类型
-                option.setScanSpan(1000);
+                //option.setScanSpan(0);
                 mLocClient.setLocOption(option);              
             }
             myListener.resetFlag();
+            if(mLocClient.isStarted()){
+                mLocClient.stop();;
+            }
             mLocClient.start();         //TODO mLocClient.stop(); when distory
         }else{
             if(mLocClient != null)
@@ -328,14 +398,14 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
           mapView.getId(),
           //context.getViewTag(),
           "topChange",
-          event);         
+          event);
     }
 
     protected void handleStatusChange(MapStatus status) {
         Log.e(TAG, "handleStatusChange:" );
         //MapStatus status = mapView.getMap().getMapStatus();
         WritableMap event = Arguments.createMap();
-        
+
         LatLngBounds bound = status.bound;
         WritableArray boundArray = Arguments.createArray();
         WritableArray northeast = Arguments.createArray();
@@ -355,19 +425,33 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
     }
 
     private WritableMap lastMarkerClickEvent;
-    protected void handleMarkerClick(Marker marker){
-        Log.e(TAG, "handleMarkerClick:" );
+    protected void handleMarkerClick(Marker marker) {
+        Log.e(TAG, "handleMarkerClick:");
         WritableMap event = Arguments.createMap();
+        if("cluster".equalsIgnoreCase(marker.getTitle())){
+            //cluster marker will not display tips
+            event.putString("type", "clusterClick");
+            fireEvent(event);
+            return;
+        }
+        /*for (Marker m: _markerList) {
+            if(m != marker){
+                m.setAlpha(1);
+            }
+        }*/
+        marker.setAlpha(0.3F);
+        //marker.setTitle("clicked");
+
         WritableArray postion = Arguments.createArray();
-       
+
         postion.pushDouble(marker.getPosition().latitude);
         postion.pushDouble(marker.getPosition().longitude);
-        
+
         event.putString("type", "markerClick");
-        event.putArray("marker",postion);
+        event.putArray("marker", postion);
         lastMarkerClickEvent = event;
-        //fireEvent(event);
-        getGeoCoder().reverseGeoCode(new ReverseGeoCodeOption().location(marker.getPosition()));
+        fireEvent(event);
+        //getGeoCoder().reverseGeoCode(new ReverseGeoCodeOption().location(marker.getPosition()));
     }
 
     private GeoCoder geoCoder;
@@ -413,26 +497,45 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
     protected void addChangeListener(MapView mapView){
        mapView.getMap().setOnMapStatusChangeListener(new OnMapStatusChangeListener() {
             public void onMapStatusChangeFinish(MapStatus status) {
+
+                mClusterManager.onMapStatusChangeFinish(status);
                 handleStatusChange(status);
             }
 
             public void onMapStatusChangeStart(MapStatus status) {
                 //do nothing
+                mClusterManager.onMapStatusChangeStart(status);
             }
 
             public void onMapStatusChange(MapStatus status) {
                 //do nothing
+
+                mClusterManager.onMapStatusChange(status);
             }
         });
     }
 
-    protected void addMarkClickListener(MapView mapView){
+    protected void addMarkClickListener(final MapView mapView){
         mapView.getMap().setOnMarkerClickListener(new OnMarkerClickListener() {
             public boolean onMarkerClick(final Marker marker) {
+                Log.e(TAG,"onMarkCLick marker = "+marker);
                 handleMarkerClick(marker);
                 return true;
             }
-        });      
+        });
+
+        mapView.getMap().setOnMapClickListener(new BaiduMap.OnMapClickListener() {
+            @Override
+            public void onMapClick(LatLng latLng) {
+                mapView.getMap().hideInfoWindow();
+
+            }
+
+            @Override
+            public boolean onMapPoiClick(MapPoi mapPoi) {
+                return false;
+            }
+        });
     }
 
 
@@ -446,6 +549,7 @@ public class BaiduMapViewManager extends SimpleViewManager<MapView> {
         }
         @Override
         public void onReceiveLocation(BDLocation location) {
+            Log.e(TAG,"onReceiveLocation-------------------");
             // map view 销毁后不在处理新接收的位置
             if (location == null || mapView == null) {
                 return;

@@ -18,8 +18,14 @@ import com.facebook.react.uimanager.events.RCTEventEmitter;
  */
 public class EventHelper {
     public static final String TAG = "RCTBaiduMap EventHelper";
+    private ThemedReactContext context;
+    private MapView mapView;
 
-    public static void handleStatusChange(MapStatus status,ThemedReactContext context) {
+    public EventHelper(ThemedReactContext context, MapView mapView){
+        this.mapView = mapView;
+        this.context = context;
+    }
+    public  void handleStatusChange(MapStatus status) {
         Log.e(TAG, "handleStatusChange:");
         //MapStatus status = mapView.getMap().getMapStatus();
         WritableMap event = Arguments.createMap();
@@ -39,17 +45,16 @@ public class EventHelper {
         event.putString("type", "change");
         event.putDouble("zoom", status.zoom);
         event.putArray("bound",boundArray);
-        fireEvent(event,context);
+        fireEvent(event);
     }
 
-    public static void fireEvent(WritableMap event, ThemedReactContext context){
-/*
+    public void fireEvent(WritableMap event){
         context.getJSModule(RCTEventEmitter.class).receiveEvent(
             mapView.getId(),
             //context.getViewTag(),
             "topChange",
             event);
-            */
+
     }
 
 }

@@ -56,12 +56,14 @@ public class ClusterManager<T extends ClusterItem> implements
 
     public ClusterManager(Context context, BaiduMap map, MarkerManager markerManager) {
         mMap = map;
+
         mMarkerManager = markerManager;
         mClusterMarkers = markerManager.newCollection();
         mMarkers = markerManager.newCollection();
         mRenderer = new DefaultClusterRenderer<T>(context, map, this);
         mAlgorithm = new PreCachingAlgorithmDecorator<T>(new NonHierarchicalDistanceBasedAlgorithm<T>());
         mClusterTask = new ClusterTask();
+        mMap.setOnMarkerClickListener(this);
         mRenderer.onAdd();
     }
 
@@ -170,11 +172,11 @@ public class ClusterManager<T extends ClusterItem> implements
 
     @Override
     public void onMapStatusChange(MapStatus mapStatus) {
-        Log.e("BaiduMap ClusterManager", "onMapStatusChange:");
+        //Log.e("BaiduMap ClusterManager", "onMapStatusChange:");
         if (mRenderer instanceof BaiduMap.OnMapStatusChangeListener) {
             ((BaiduMap.OnMapStatusChangeListener) mRenderer).onMapStatusChange(mapStatus);
         }
-
+/*      //cluster() will be called in the MapView's setMark() funciton.
         // Don't re-compute clusters if the map has just been panned/tilted/rotated.
         MapStatus position = mMap.getMapStatus();
         if (mPreviousCameraPosition != null && mPreviousCameraPosition.zoom == position.zoom) {
@@ -183,17 +185,24 @@ public class ClusterManager<T extends ClusterItem> implements
         mPreviousCameraPosition = mMap.getMapStatus();
 
         cluster();
-        Log.e("BaiduMap ClusterManager", "onMapStatusChange: end");
+*/
+        //Log.e("BaiduMap ClusterManager", "onMapStatusChange: end");
     }
 
     @Override
     public void onMapStatusChangeFinish(MapStatus mapStatus) {
-        Log.e("BaiduMap ClusterManager", "onMapStatusChangeFinish:");
+        //Log.e("BaiduMap ClusterManager", "onMapStatusChangeFinish:");
     }
 
     @Override
     public boolean onMarkerClick(Marker marker) {
-        return false;
+        Log.e("BaiduMap ClusterManager", "onMarkClick:" + marker);
+        Log.e("BaiduMap ClusterManager", "mMarkers:" + mMarkers);
+        Collection<Marker> collection = mMarkers.getMarkers();
+        for (Marker m:collection) {
+            m.setAlpha(1);
+        }
+        return true;
     }
 
     /**

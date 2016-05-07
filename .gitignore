@@ -2,7 +2,7 @@
 bin/
 bin-debug/
 bin-release/
-
+android/build/
 # Other files and folders
 .settings/
 

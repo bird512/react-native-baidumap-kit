@@ -4,6 +4,8 @@
 
 package com.baidu.mapapi.clusterutil;
 
+import android.util.Log;
+
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.Marker;
 import com.baidu.mapapi.map.MarkerOptions;
@@ -58,15 +60,17 @@ public class MarkerManager implements BaiduMap.OnMarkerClickListener, BaiduMap.O
 
     @Override
     public boolean onMarkerClick(Marker marker) {
+        Log.e("Baidumap MarkerManager","onMarkerClick function start");
         Collection collection = mAllMarkers.get(marker);
         if (collection != null && collection.mMarkerClickListener != null) {
             // you can set the click action
+            Log.e("Baidumap MarkerManager","onMarkerClick start");
             for (Marker m : collection.mMarkers) {
+                Log.e("in roop",""+m);
                 m.setAlpha(1);
             }
             collection.mMarkerClickListener.onMarkerClick(marker);
-
-            collection.getMarkers();
+            Log.e("Baidumap MarkerManager", "onMarkerClick end");
             return true;
         }
         return false;
