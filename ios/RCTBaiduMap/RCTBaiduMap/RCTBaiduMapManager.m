@@ -286,6 +286,34 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
     }
     
     annotationView.draggable = annotation.draggable;
+    
+    UIFont *fontName = [UIFont systemFontOfSize:16.0f];
+    //定义字体大小
+    CGSize sizeTitle = [annotation.title sizeWithFont:fontName constrainedToSize:CGSizeMake(280,MAXFLOAT) lineBreakMode:NSLineBreakByWordWrapping];
+    
+    
+    
+    UILabel *titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(8, 4, 280, sizeTitle.height)];
+    titleLabel.text = annotation.title;
+    titleLabel.numberOfLines = 0;
+    titleLabel.backgroundColor = [UIColor clearColor];
+    titleLabel.font = [UIFont systemFontOfSize:16];
+    titleLabel.textColor = [UIColor blackColor];
+    titleLabel.textAlignment = NSTextAlignmentLeft;
+    //titleLabel.lineBreakMode = UILineBreakModeWordWrap;
+    UIView *popView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 300, sizeTitle.height + 8)];
+    popView.backgroundColor = [UIColor whiteColor];
+    [popView.layer setMasksToBounds:YES];
+    [popView.layer setCornerRadius:3.0];
+    popView.alpha = 0.9;
+    
+    [popView addSubview:titleLabel];
+    
+    BMKActionPaopaoView *pView = [[BMKActionPaopaoView alloc]initWithCustomView:popView];
+    pView.frame = CGRectMake(0, 0, 300, sizeTitle.height + 18);
+    annotationView.paopaoView = nil;
+    annotationView.paopaoView = pView;
+    
     return annotationView;
 }
 
