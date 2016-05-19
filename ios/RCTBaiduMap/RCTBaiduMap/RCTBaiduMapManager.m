@@ -79,10 +79,12 @@ RCT_EXPORT_MODULE()
 }
 
 RCT_EXPORT_VIEW_PROPERTY(showsUserLocation, BOOL)
+RCT_EXPORT_VIEW_PROPERTY(centerCoordinate, CLLocationCoordinate2D)
 RCT_EXPORT_VIEW_PROPERTY(showsPointsOfInterest, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(followUserLocation, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(autoZoomToSpan, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(zoomEnabled, BOOL)
+RCT_EXPORT_VIEW_PROPERTY(zoomLevel, CGFloat)
 RCT_EXPORT_VIEW_PROPERTY(rotateEnabled, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(pitchEnabled, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(scrollEnabled, BOOL)
@@ -107,6 +109,9 @@ RCT_CUSTOM_VIEW_PROPERTY(userLocationViewParams, BMKLocationViewDisplayParam, RC
         [view setUserLocationViewParams:[RCTConvert RCTBaiduMapLocationViewDisplayParam:json]];
     }
 }
+
+
+
 
 - (NSDictionary<NSString *, id> *)constantsToExport
 {
