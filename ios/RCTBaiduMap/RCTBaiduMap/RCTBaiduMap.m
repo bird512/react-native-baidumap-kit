@@ -147,6 +147,11 @@ const CGFloat RCTBaiduMapZoomBoundBuffer = 0.01;
     [super setRegion:region animated:animated];
 }
 
+- (void)setOnChange:(RCTBubblingEventBlock)onChange
+{
+    _onChange = onChange;
+}
+
 - (void)setAnnotations:(NSArray<RCTBaiduMapAnnotation *> *)annotations
 {
     NSMutableArray<NSString *> *newAnnotationIDs = [NSMutableArray new];
@@ -183,7 +188,7 @@ const CGFloat RCTBaiduMapZoomBoundBuffer = 0.01;
     }
     
     self.annotationIDs = newAnnotationIDs;
-    [self showAnnotations: self.annotations animated:YES];
+    //[self showAnnotations: self.annotations animated:YES];
     
     if (self.autoZoomToSpan) {
         [self zoomToSpan];

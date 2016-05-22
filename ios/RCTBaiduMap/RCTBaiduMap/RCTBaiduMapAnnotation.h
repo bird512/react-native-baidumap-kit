@@ -11,6 +11,7 @@
 @interface RCTBaiduMapAnnotation : BMKPointAnnotation <BMKAnnotation>
 
 @property (nonatomic, copy) NSString *identifier;
+@property (nonatomic, assign) NSString *displayNumber;
 @property (nonatomic, assign) BOOL hasLeftCallout;
 @property (nonatomic, assign) BOOL hasRightCallout;
 @property (nonatomic, assign) BOOL animateDrop;

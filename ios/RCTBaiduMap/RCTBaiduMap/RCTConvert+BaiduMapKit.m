@@ -45,6 +45,7 @@ RCT_ENUM_CONVERTER(BMKMapType, (@{
     annotation.draggable = [self BOOL:json[@"draggable"]];
     annotation.title = [self NSString:json[@"title"]];
     annotation.subtitle = [self NSString:json[@"subtitle"]];
+    annotation.displayNumber = [self NSString:json[@"displayNumber"]];
     annotation.identifier = [self NSString:json[@"id"]];
     annotation.hasLeftCallout = [self BOOL:json[@"hasLeftCallout"]];
     annotation.hasRightCallout = [self BOOL:json[@"hasRightCallout"]];
