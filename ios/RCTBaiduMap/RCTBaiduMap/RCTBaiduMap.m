@@ -147,6 +147,18 @@ const CGFloat RCTBaiduMapZoomBoundBuffer = 0.01;
     [super setRegion:region animated:animated];
 }
 
+-(void)setZoomLevel:(float)zoomLevel
+{
+    /*
+    if(zoomLevel < 12) {
+        zoomLevel = 12;
+    }*/
+    [super setZoomLevel:zoomLevel];
+}
+-(void)setCenterCoordinate:(CLLocationCoordinate2D)centerCoordinate{
+    [super setCenterCoordinate:centerCoordinate];
+}
+
 - (void)setOnChange:(RCTBubblingEventBlock)onChange
 {
     _onChange = onChange;

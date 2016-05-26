@@ -84,7 +84,7 @@ RCT_EXPORT_VIEW_PROPERTY(showsPointsOfInterest, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(followUserLocation, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(autoZoomToSpan, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(zoomEnabled, BOOL)
-RCT_EXPORT_VIEW_PROPERTY(zoomLevel, CGFloat)
+RCT_EXPORT_VIEW_PROPERTY(zoomLevel, float)
 RCT_EXPORT_VIEW_PROPERTY(rotateEnabled, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(pitchEnabled, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(scrollEnabled, BOOL)
@@ -446,11 +446,15 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
         mapView.onChange(@{
                            @"continuous": @(continuous),
                            @"region": @{
-                                   @"latitude": @(RCTZeroIfNaN(region.center.latitude)),
-                                   @"longitude": @(RCTZeroIfNaN(region.center.longitude)),
+                                   @"latitude_bak": @(RCTZeroIfNaN(region.center.latitude)),
+                                   @"longitude_bak": @(RCTZeroIfNaN(region.center.longitude)),
+                                   @"latitude": @(RCTZeroIfNaN(mapView.centerCoordinate.latitude)),
+                                   @"longitude": @(RCTZeroIfNaN(mapView.centerCoordinate.longitude)),
                                    @"latitudeDelta": @(RCTZeroIfNaN(region.span.latitudeDelta)),
                                    @"longitudeDelta": @(RCTZeroIfNaN(region.span.longitudeDelta)),
-                                   }
+                                   @"zoomLevel": @(mapView.zoomLevel)
+                                   },
+                           
                            });
     }
 }
