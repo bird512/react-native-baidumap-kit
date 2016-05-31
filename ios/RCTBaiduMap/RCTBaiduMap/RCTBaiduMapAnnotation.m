@@ -9,5 +9,5 @@
 #import "RCTBaiduMapAnnotation.h"
 
 @implementation RCTBaiduMapAnnotation
-
+@synthesize size = _size;
 @end

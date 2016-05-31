@@ -7,7 +7,12 @@
 //
 
 #import "RCTViewManager.h"
+#import "BMKClusterManager.h"
 
 @interface RCTBaiduMapManager : RCTViewManager
+@property (nonatomic, copy) BMKClusterManager *clusterManager;
+@property (nonatomic) NSInteger clusterZoom;
+@property (nonatomic) NSMutableArray *clusterCaches;
+
 
 @end

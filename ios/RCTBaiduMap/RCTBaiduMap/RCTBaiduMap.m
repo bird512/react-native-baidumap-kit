@@ -16,6 +16,7 @@
 
 #import <BaiduMapAPI_Utils/BMKGeometry.h>
 #import <BaiduMapAPI_Location/BMKLocationService.h>
+#import "RCTBaiduMapManager.h"
 
 const CLLocationDegrees RCTBaiduMapDefaultSpan = 0.005;
 const NSTimeInterval RCTBaiduMapRegionChangeObserveInterval = 0.1;

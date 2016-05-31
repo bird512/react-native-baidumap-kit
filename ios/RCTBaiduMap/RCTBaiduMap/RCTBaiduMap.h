@@ -39,6 +39,8 @@ RCT_EXTERN const CGFloat RCTBaiduMapZoomBoundBuffer;
 @property (nonatomic, copy) RCTBubblingEventBlock onAnnotationFocus;
 @property (nonatomic, copy) RCTBubblingEventBlock onAnnotationBlur;
 
+@property (nonatomic, assign) BOOL showCluster;
+
 - (void)setAnnotations:(NSArray<RCTBaiduMapAnnotation *> *)annotations;
 - (void)setOverlays:(NSArray<RCTBaiduMapOverlay *> *)overlays;
 

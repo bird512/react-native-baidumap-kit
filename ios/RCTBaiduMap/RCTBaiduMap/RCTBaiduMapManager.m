@@ -37,13 +37,18 @@ RCT_ENUM_CONVERTER(BMKPinAnnotationColor, (@{
 @end
 
 
-@interface RCTBaiduMapAnnotationView : BMKAnnotationView
+@interface RCTBaiduMapAnnotationView : BMKPinAnnotationView
 
 @property (nonatomic, strong) UIView *contentView;
+
+@property (nonatomic, assign) NSInteger size;
 
 @end
 
 @implementation RCTBaiduMapAnnotationView
+
+@synthesize size = _size;
+
 
 - (void)setContentView:(UIView *)contentView
 {
@@ -65,9 +70,26 @@ RCT_ENUM_CONVERTER(BMKPinAnnotationColor, (@{
 
 @interface RCTBaiduMapManager () <BMKMapViewDelegate>
 
+
 @end
 
 @implementation RCTBaiduMapManager
+
+- (id)init
+{
+    self = [super init];
+    if(self)
+    {
+        _clusterManager = [[BMKClusterManager alloc] init];
+        _clusterCaches = [[NSMutableArray alloc] init];
+        for (NSInteger i = 3; i < 22; i++) {
+            [_clusterCaches addObject:[NSMutableArray array]];
+        }
+    }
+    return self;
+}
+
+
 
 RCT_EXPORT_MODULE()
 
@@ -110,7 +132,48 @@ RCT_CUSTOM_VIEW_PROPERTY(userLocationViewParams, BMKLocationViewDisplayParam, RC
     }
 }
 
-
+RCT_CUSTOM_VIEW_PROPERTY(annotationsWithCluster, NSArray<RCTBaiduMapAnnotation *>, RCTBaiduMap)
+{
+    if(view.zoomLevel <= 10){
+        view.showCluster = YES;
+        if(json){
+            [_clusterManager clearClusterItems];
+            for (RCTBaiduMapAnnotation *annotation in json) {
+                RCTBaiduMapAnnotation *an = [RCTConvert RCTBaiduMapAnnotation:annotation];
+                BMKClusterItem *clusterItem = [[BMKClusterItem alloc] init];
+                if(an.title){
+                    clusterItem.title = an.title;
+                }
+                if(an.identifier){
+                    clusterItem.identifier = an.identifier;
+                }
+                if(an.displayNumber){
+                    clusterItem.displayNumber = an.displayNumber;
+                }
+                
+                clusterItem.coor = CLLocationCoordinate2DMake(an.coordinate.latitude , an.coordinate.longitude );
+                [_clusterManager addClusterItem:clusterItem];
+            }
+        }else{
+            [_clusterManager clearClusterItems];
+        }
+        [self updateClusters:view];
+      
+    }else{
+        view.showCluster = NO;
+        NSMutableArray *addArray = [[NSMutableArray alloc] init];
+        if(json){
+            for (RCTBaiduMapAnnotation *annotation in json) {
+                RCTBaiduMapAnnotation *an = [RCTConvert RCTBaiduMapAnnotation:annotation];
+                [addArray  addObject:an];
+            }
+        }
+        
+        [view removeAnnotations:view.annotations];
+        [view addAnnotations:addArray];
+    }
+    
+}
 
 
 - (NSDictionary<NSString *, id> *)constantsToExport
@@ -176,7 +239,7 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
         mapView.onPress(@{
                           @"action": @"annotation-click",
                           @"annotation": @{
-                                  @"id": annotation.identifier,
+                                  @"id": annotation.identifier?: @"",
                                   @"title": annotation.title ?: @"",
                                   @"subtitle": annotation.subtitle ?: @"",
                                   @"latitude": @(annotation.coordinate.latitude),
@@ -189,15 +252,19 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
         RCTBaiduMapAnnotation *annotation = (RCTBaiduMapAnnotation *)view.annotation;
         if (mapView.onAnnotationFocus) {
             mapView.onAnnotationFocus(@{
-                                        @"annotationId": annotation.identifier
+                                        @"annotationId": annotation.identifier?: @""
                                         });
         }
+        if(annotation.size <= 1){
+            view.image = [UIImage imageNamed:@"mapapi.bundle/images/pin_green.png"];
+        }else{
+            BMKMapStatus *newMapStatus = [BMKMapStatus new];
+            newMapStatus.targetGeoPt = annotation.coordinate;
+            newMapStatus.fLevel = mapView.zoomLevel+1;
+            [mapView setMapStatus:newMapStatus withAnimation:YES];
+        }
     }
-    
-    
-    //update the ping image
-    view.image = [UIImage imageNamed:@"mapapi.bundle/images/pin_green.png"];
-    
+
     
 }
 
@@ -207,12 +274,15 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
         RCTBaiduMapAnnotation *annotation = (RCTBaiduMapAnnotation *)view.annotation;
         if (mapView.onAnnotationBlur) {
             mapView.onAnnotationBlur(@{
-                                        @"annotationId": annotation.identifier
+                                        @"annotationId": annotation.identifier?: @"",
                                         });
         }
+        if(annotation.size <= 1){
+            //update the ping image
+            view.image = [UIImage imageNamed:@"mapapi.bundle/images/pin_red.png"];
+        }
     }
-    //update the ping image
-    view.image = [UIImage imageNamed:@"mapapi.bundle/images/pin_red.png"];
+    
 }
 
 - (void)mapView:(RCTBaiduMap *)mapView annotationView:(BMKAnnotationView *)view didChangeDragState:(BMKAnnotationViewDragState)newState fromOldState:(BMKAnnotationViewDragState)oldState
@@ -244,7 +314,7 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
     }
     
     BMKAnnotationView *annotationView;
-    if (annotation.viewIndex != NSNotFound) {
+    if (annotation.viewIndex != NSNotFound && false) {//no used for now
         NSString *reuseIdentifier = NSStringFromClass([RCTBaiduMapAnnotationView class]);
         annotationView = [mapView dequeueReusableAnnotationViewWithIdentifier:reuseIdentifier];
         if (!annotationView) {
@@ -288,6 +358,9 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
         }
         
         ((BMKPinAnnotationView *)annotationView).animatesDrop = annotation.animateDrop;
+        if(annotation.showCluster){
+            //((RCTBaiduMapAnnotationView*)annotationView).size = annotation.size;
+        }
         
 //        ((BMKPinAnnotationView *)annotationView).pinColor = annotation.tintColor;
         
@@ -295,7 +368,7 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
     }
     
     annotationView.canShowCallout = (annotation.title.length > 0);
-    
+    /*
     if (annotation.leftCalloutViewIndex != NSNotFound) {
         annotationView.leftCalloutAccessoryView = mapView.reactSubviews[annotation.leftCalloutViewIndex];
     } else if (annotation.hasLeftCallout) {
@@ -311,36 +384,42 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
     } else {
         annotationView.rightCalloutAccessoryView = nil;
     }
-    
+    */
     annotationView.draggable = annotation.draggable;
     
-    //paopao view start
-    UIFont *fontName = [UIFont systemFontOfSize:16.0f];
-    //定义字体大小
-    CGSize sizeTitle = [annotation.title sizeWithFont:fontName constrainedToSize:CGSizeMake(280,MAXFLOAT) lineBreakMode:NSLineBreakByWordWrapping];
     
+    if (annotation.title && annotation.size <= 1){
+        //paopao view start
+        UIFont *fontName = [UIFont systemFontOfSize:16.0f];
+        //定义字体大小
+        CGSize sizeTitle = [annotation.title sizeWithFont:fontName constrainedToSize:CGSizeMake(280,MAXFLOAT) lineBreakMode:NSLineBreakByWordWrapping];
+        
+        
+        
+        UILabel *titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(8, 4, 250, sizeTitle.height)];
+        titleLabel.text = annotation.title;
+        titleLabel.numberOfLines = 0;
+        titleLabel.backgroundColor = [UIColor clearColor];
+        titleLabel.font = [UIFont systemFontOfSize:16];
+        titleLabel.textColor = [UIColor blackColor];
+        titleLabel.textAlignment = NSTextAlignmentLeft;
+        //titleLabel.lineBreakMode = UILineBreakModeWordWrap;
+        UIView *popView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 280, sizeTitle.height + 8)];
+        popView.backgroundColor = [UIColor whiteColor];
+        [popView.layer setMasksToBounds:YES];
+        [popView.layer setCornerRadius:3.0];
+        popView.alpha = 0.9;
+        
+        [popView addSubview:titleLabel];
+        
+        BMKActionPaopaoView *pView = [[BMKActionPaopaoView alloc]initWithCustomView:popView];
+            
+       
+        pView.frame = CGRectMake(0, 0, 280, sizeTitle.height + 18);
+        annotationView.paopaoView = nil;
+        annotationView.paopaoView = pView;
+    }
     
-    
-    UILabel *titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(8, 4, 250, sizeTitle.height)];
-    titleLabel.text = annotation.title;
-    titleLabel.numberOfLines = 0;
-    titleLabel.backgroundColor = [UIColor clearColor];
-    titleLabel.font = [UIFont systemFontOfSize:16];
-    titleLabel.textColor = [UIColor blackColor];
-    titleLabel.textAlignment = NSTextAlignmentLeft;
-    //titleLabel.lineBreakMode = UILineBreakModeWordWrap;
-    UIView *popView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 280, sizeTitle.height + 8)];
-    popView.backgroundColor = [UIColor whiteColor];
-    [popView.layer setMasksToBounds:YES];
-    [popView.layer setCornerRadius:3.0];
-    popView.alpha = 0.9;
-    
-    [popView addSubview:titleLabel];
-    
-    BMKActionPaopaoView *pView = [[BMKActionPaopaoView alloc]initWithCustomView:popView];
-    pView.frame = CGRectMake(0, 0, 280, sizeTitle.height + 18);
-    annotationView.paopaoView = nil;
-    annotationView.paopaoView = pView;
     //paopao view end
     if (annotation.displayNumber) {
       
@@ -352,6 +431,22 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
         la.textColor = [UIColor whiteColor];
         la.tag = [annotation.displayNumber intValue];
         [annotationView addSubview:la];
+    }
+    if(annotation.size > 1){
+        //we may use it later
+        /*
+        UILabel *la = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, annotationView.frame.size.width,annotationView.frame.size.height-annotationView.frame.size.height*20/69)];
+        la.backgroundColor = [UIColor clearColor];
+        la.font = [UIFont systemFontOfSize:12];
+        la.textAlignment = NSTextAlignmentCenter;
+        la.text = [NSString stringWithFormat:@"%d",annotation.size];
+        la.textColor = [UIColor whiteColor];
+        la.tag = [annotation.displayNumber intValue];
+        [annotationView addSubview:la];
+         */
+        UIImage *img = [UIImage imageNamed:@"mapapi.bundle/images/pin_purple.png"];
+        annotationView.image = img;
+        
     }
 
     return annotationView;
@@ -396,6 +491,13 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
         [mapView zoomToSpan];
     }
     [self _emitRegionChangeEvent:mapView continuous:NO];
+}
+
+- (void)mapStatusDidChanged:(RCTBaiduMap *)mapView
+{
+    if (mapView.showCluster && _clusterZoom != 0 && _clusterZoom != (NSInteger)mapView.zoomLevel) {
+        [self updateClusters:mapView];
+    }
 }
 
 #pragma mark - Private
@@ -456,6 +558,58 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
                                    },
                            
                            });
+    }
+}
+
+
+//更新聚合状态
+- (void)updateClusters:(RCTBaiduMap *)mapView
+{
+    _clusterZoom = (NSInteger)mapView.zoomLevel;
+    @synchronized(_clusterCaches) {
+        __block NSMutableArray *clusters = [_clusterCaches objectAtIndex:(_clusterZoom - 3)];
+        
+        if (clusters.count > 0 && false) {
+            [mapView removeAnnotations:mapView.annotations];
+            [mapView addAnnotations:clusters];
+        } else {
+            dispatch_async(dispatch_get_global_queue(0, 0), ^{
+                clusters = [[NSMutableArray alloc] init];
+                ///获取聚合后的标注
+                __block NSArray *array = [_clusterManager getClusters:_clusterZoom];
+                
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    for (BMKCluster *item in array) {
+                        RCTBaiduMapAnnotation *annotation = [[RCTBaiduMapAnnotation alloc] init];
+                        annotation.coordinate = item.coordinate;
+                        annotation.size = item.size;
+                        annotation.showCluster = true;
+                        
+                        if(item.size <= 1){
+                            BMKClusterItem* clusterItem = (BMKClusterItem*)[item.clusterItems objectAtIndex:0];
+                            if(clusterItem.title){
+                                annotation.title  = clusterItem.title;
+                            }
+                            if(clusterItem.identifier){
+                                annotation.identifier = clusterItem.identifier;
+                            }else{
+                                annotation.identifier = @"";
+                            }
+                            
+                            if(clusterItem.displayNumber){
+                                annotation.displayNumber =clusterItem.displayNumber;
+                            }
+                            
+                        }
+                        
+                        [clusters addObject:annotation];
+                    }
+                    [mapView removeAnnotations:mapView.annotations];
+                    [mapView addAnnotations:clusters];
+                    
+                });
+            });
+        }
     }
 }
 

@@ -50,6 +50,7 @@ RCT_ENUM_CONVERTER(BMKMapType, (@{
     annotation.hasLeftCallout = [self BOOL:json[@"hasLeftCallout"]];
     annotation.hasRightCallout = [self BOOL:json[@"hasRightCallout"]];
     annotation.animateDrop = [self BOOL:json[@"animateDrop"]];
+    annotation.showCluster = [self BOOL:json[@"showCluster"]];
     annotation.tintColor = [self UIColor:json[@"tintColor"]];
     annotation.image = [self UIImage:json[@"image"]];
     annotation.viewIndex = [self NSInteger:json[@"viewIndex"] ? :@(NSNotFound)];

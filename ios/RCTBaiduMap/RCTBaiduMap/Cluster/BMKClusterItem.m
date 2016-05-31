@@ -11,7 +11,9 @@
 @implementation BMKClusterItem
 
 @synthesize coor = _coor;
-
+@synthesize title = _title;
+@synthesize identifier = _identifier;
+@synthesize displayNumber = _displayNumber;
 @end
 
 @implementation BMKCluster

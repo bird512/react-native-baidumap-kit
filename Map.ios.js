@@ -183,6 +183,99 @@ const BaiduMapView= React.createClass({
       longitude: React.PropTypes.number.isRequired,
 
     }),
+    annotationsWithCluster: React.PropTypes.arrayOf(React.PropTypes.shape({
+      /**
+       * The location of the annotation.
+       */
+      latitude: React.PropTypes.number.isRequired,
+      longitude: React.PropTypes.number.isRequired,
+
+      /**
+       * Whether the pin drop should be animated or not
+       */
+      animateDrop: React.PropTypes.bool,
+
+      /**
+       * Whether the pin should be draggable or not
+       */
+      draggable: React.PropTypes.bool,
+
+      /**
+       * Event that fires when the annotation drag state changes.
+       */
+      onDragStateChange: React.PropTypes.func,
+
+      /**
+       * Event that fires when the annotation gets was tapped by the user
+       * and the callout view was displayed.
+       */
+      onFocus: React.PropTypes.func,
+
+      /**
+       * Event that fires when another annotation or the mapview itself
+       * was tapped and a previously shown annotation will be closed.
+       */
+      onBlur: React.PropTypes.func,
+
+      /**
+       * Annotation title/subtile.
+       */
+      title: React.PropTypes.string,
+      subtitle: React.PropTypes.string,
+
+      /**
+       * Callout views.
+       */
+      leftCalloutView: React.PropTypes.element,
+      rightCalloutView: React.PropTypes.element,
+
+      /**
+       * The pin color. This can be any valid color string, or you can use one
+       * of the predefined PinColors constants. Applies to both standard pins
+       * and custom pin images.
+       *
+       * Note that on iOS 8 and earlier, only the standard PinColor constants
+       * are supported for regular pins. For custom pin images, any tintColor
+       * value is supported on all iOS versions.
+       */
+      tintColor: React.PropTypes.number,
+
+      /**
+       * Custom pin image. This must be a static image resource inside the app.
+       */
+      image: Image.propTypes.source,
+
+      /**
+       * Custom pin view. If set, this replaces the pin or custom pin image.
+       */
+      view: React.PropTypes.element,
+
+      /**
+       * annotation id
+       */
+      id: React.PropTypes.string,
+
+      /**
+       * Deprecated. Use the left/right/detailsCalloutView props instead.
+       */
+      hasLeftCallout: deprecatedPropType(
+        React.PropTypes.bool,
+        'Use `leftCalloutView` instead.'
+      ),
+      hasRightCallout: deprecatedPropType(
+        React.PropTypes.bool,
+        'Use `rightCalloutView` instead.'
+      ),
+      onLeftCalloutPress: deprecatedPropType(
+        React.PropTypes.func,
+        'Use `leftCalloutView` instead.'
+      ),
+      onRightCalloutPress: deprecatedPropType(
+        React.PropTypes.func,
+        'Use `rightCalloutView` instead.'
+      ),
+    })),
+
     /**
      * Map annotations with title/subtitle.
      * @platform ios
@@ -348,7 +441,7 @@ const BaiduMapView= React.createClass({
 
 
   render: function() {
-    let children = [], {annotations, overlays, followUserLocation, userLocationViewParams, showsZoomControl} = this.props;
+    let children = [], {annotations, annotationsWithCluster, overlays, followUserLocation, userLocationViewParams, showsZoomControl} = this.props;
     annotations = annotations && annotations.map((annotation: Object) => {
       let {
         id,
@@ -430,7 +523,7 @@ const BaiduMapView= React.createClass({
 
     // TODO: these should be separate events, to reduce bridge traffic
     let onPress, onAnnotationDragStateChange, onAnnotationFocus, onAnnotationBlur;
-    if (annotations) {
+    if (annotations || annotationsWithCluster) {
       onPress = (event: Event) => {
         if (event.nativeEvent.action === 'annotation-click') {
           // TODO: Remove deprecated onAnnotationPress API call later.
@@ -470,6 +563,10 @@ const BaiduMapView= React.createClass({
         if (annotation && annotation.onBlur) {
           annotation.onBlur(event.nativeEvent);
         }
+
+        this.props.onAnnotationBlur &&
+            this.props.onAnnotationBlur(event.nativeEvent.annotation);
+
       };
     }
 

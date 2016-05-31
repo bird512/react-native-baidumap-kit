@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		690E21601CEF4E7B00CC8E00 /* RCTBaiduGeo.m in Sources */ = {isa = PBXBuildFile; fileRef = 690E215F1CEF4E7B00CC8E00 /* RCTBaiduGeo.m */; };
 		690E21621CEF58A200CC8E00 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690E21611CEF58A200CC8E00 /* BaiduMapAPI_Search.framework */; };
+		69783FEE1CFC190C00C172E1 /* BMKClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 69783FE71CFC190C00C172E1 /* BMKClusterAlgorithm.m */; };
+		69783FEF1CFC190C00C172E1 /* BMKClusterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 69783FE91CFC190C00C172E1 /* BMKClusterItem.m */; };
+		69783FF01CFC190C00C172E1 /* BMKClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69783FEB1CFC190C00C172E1 /* BMKClusterManager.m */; };
+		69783FF11CFC190C00C172E1 /* BMKClusterQuadtree.m in Sources */ = {isa = PBXBuildFile; fileRef = 69783FED1CFC190C00C172E1 /* BMKClusterQuadtree.m */; };
 		A5363BDE1CBBA45000DE069E /* RCTBaiduLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5363BDD1CBBA45000DE069E /* RCTBaiduLocation.m */; };
 		A5C251871C8FB9BB00AEED9F /* RCTBaiduMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C2517D1C8FB9BB00AEED9F /* RCTBaiduMap.m */; };
 		A5C251881C8FB9BB00AEED9F /* RCTBaiduMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C2517F1C8FB9BB00AEED9F /* RCTBaiduMapAnnotation.m */; };
@@ -38,6 +42,14 @@
 		690E215E1CEF4D4500CC8E00 /* RCTBaiduGeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTBaiduGeo.h; sourceTree = "<group>"; };
 		690E215F1CEF4E7B00CC8E00 /* RCTBaiduGeo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTBaiduGeo.m; sourceTree = "<group>"; };
 		690E21611CEF58A200CC8E00 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		69783FE61CFC190C00C172E1 /* BMKClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMKClusterAlgorithm.h; path = Cluster/BMKClusterAlgorithm.h; sourceTree = "<group>"; };
+		69783FE71CFC190C00C172E1 /* BMKClusterAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMKClusterAlgorithm.m; path = Cluster/BMKClusterAlgorithm.m; sourceTree = "<group>"; };
+		69783FE81CFC190C00C172E1 /* BMKClusterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMKClusterItem.h; path = Cluster/BMKClusterItem.h; sourceTree = "<group>"; };
+		69783FE91CFC190C00C172E1 /* BMKClusterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMKClusterItem.m; path = Cluster/BMKClusterItem.m; sourceTree = "<group>"; };
+		69783FEA1CFC190C00C172E1 /* BMKClusterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMKClusterManager.h; path = Cluster/BMKClusterManager.h; sourceTree = "<group>"; };
+		69783FEB1CFC190C00C172E1 /* BMKClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMKClusterManager.m; path = Cluster/BMKClusterManager.m; sourceTree = "<group>"; };
+		69783FEC1CFC190C00C172E1 /* BMKClusterQuadtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMKClusterQuadtree.h; path = Cluster/BMKClusterQuadtree.h; sourceTree = "<group>"; };
+		69783FED1CFC190C00C172E1 /* BMKClusterQuadtree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMKClusterQuadtree.m; path = Cluster/BMKClusterQuadtree.m; sourceTree = "<group>"; };
 		A52931AB1C804A8500CC7002 /* libRCTBaiduMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTBaiduMap.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5363BDC1CBBA45000DE069E /* RCTBaiduLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTBaiduLocation.h; sourceTree = "<group>"; };
 		A5363BDD1CBBA45000DE069E /* RCTBaiduLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTBaiduLocation.m; sourceTree = "<group>"; };
@@ -74,6 +86,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69783FE51CFC18ED00C172E1 /* Cluster */ = {
+			isa = PBXGroup;
+			children = (
+				69783FE61CFC190C00C172E1 /* BMKClusterAlgorithm.h */,
+				69783FE71CFC190C00C172E1 /* BMKClusterAlgorithm.m */,
+				69783FE81CFC190C00C172E1 /* BMKClusterItem.h */,
+				69783FE91CFC190C00C172E1 /* BMKClusterItem.m */,
+				69783FEA1CFC190C00C172E1 /* BMKClusterManager.h */,
+				69783FEB1CFC190C00C172E1 /* BMKClusterManager.m */,
+				69783FEC1CFC190C00C172E1 /* BMKClusterQuadtree.h */,
+				69783FED1CFC190C00C172E1 /* BMKClusterQuadtree.m */,
+			);
+			name = Cluster;
+			sourceTree = "<group>";
+		};
 		A52931A21C804A8500CC7002 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +121,7 @@
 		A5C251791C8FB9BB00AEED9F /* RCTBaiduMap */ = {
 			isa = PBXGroup;
 			children = (
+				69783FE51CFC18ED00C172E1 /* Cluster */,
 				A5C2518C1C8FB9FB00AEED9F /* BaiduMap */,
 				A5C2517C1C8FB9BB00AEED9F /* RCTBaiduMap.h */,
 				A5C2517D1C8FB9BB00AEED9F /* RCTBaiduMap.m */,
@@ -184,8 +212,12 @@
 				A5363BDE1CBBA45000DE069E /* RCTBaiduLocation.m in Sources */,
 				A5C251891C8FB9BB00AEED9F /* RCTBaiduMapManager.m in Sources */,
 				A5C2518A1C8FB9BB00AEED9F /* RCTBaiduMapOverlay.m in Sources */,
+				69783FF11CFC190C00C172E1 /* BMKClusterQuadtree.m in Sources */,
+				69783FEE1CFC190C00C172E1 /* BMKClusterAlgorithm.m in Sources */,
+				69783FEF1CFC190C00C172E1 /* BMKClusterItem.m in Sources */,
 				A5C251871C8FB9BB00AEED9F /* RCTBaiduMap.m in Sources */,
 				690E21601CEF4E7B00CC8E00 /* RCTBaiduGeo.m in Sources */,
+				69783FF01CFC190C00C172E1 /* BMKClusterManager.m in Sources */,
 				A5C251881C8FB9BB00AEED9F /* RCTBaiduMapAnnotation.m in Sources */,
 				A5C2518B1C8FB9BB00AEED9F /* RCTConvert+BaiduMapKit.m in Sources */,
 			);

@@ -22,5 +22,8 @@
 @property (nonatomic, assign) NSInteger rightCalloutViewIndex;
 @property (nonatomic, assign) NSInteger detailCalloutViewIndex;
 @property (nonatomic, assign) BOOL draggable;
+@property (nonatomic, assign) BOOL showCluster;
+///所包含annotation个数
+@property (nonatomic, assign) NSInteger size;
 
 @end

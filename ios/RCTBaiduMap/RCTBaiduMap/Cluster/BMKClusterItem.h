@@ -18,6 +18,11 @@
 
 ///经纬度，初始化后，不可修改
 @property (nonatomic, assign) CLLocationCoordinate2D coor;
+@property (copy) NSString *title;
+
+@property (nonatomic, copy) NSString *identifier;
+@property (nonatomic, copy) NSString *displayNumber;
+
 
 @end
 
@@ -32,6 +37,8 @@
 @property (nonatomic, strong) NSMutableArray *clusterItems;
 ///包含BMKClusterItem个数
 @property (nonatomic, readonly) NSUInteger size;
+
+
 
 @end
 
