@@ -132,6 +132,20 @@ RCT_CUSTOM_VIEW_PROPERTY(userLocationViewParams, BMKLocationViewDisplayParam, RC
     }
 }
 
+
+RCT_CUSTOM_VIEW_PROPERTY(selectedAnnotation, RCTBaiduMapAnnotation, RCTBaiduMap){
+    if (json) {
+        RCTBaiduMapAnnotation *jsonAn = [RCTConvert RCTBaiduMapAnnotation:json];
+        for (RCTBaiduMapAnnotation *annotation in view.annotations) {
+            if([annotation.identifier isEqual:jsonAn.identifier] ){
+                [view selectAnnotation:annotation animated:YES];
+                break;
+            }
+        }
+        
+    }
+}
+
 RCT_CUSTOM_VIEW_PROPERTY(annotationsWithCluster, NSArray<RCTBaiduMapAnnotation *>, RCTBaiduMap)
 {
     if(view.zoomLevel <= 10){
