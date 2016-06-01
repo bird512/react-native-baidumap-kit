@@ -17,6 +17,7 @@
 @property (nonatomic, assign) BOOL animateDrop;
 @property (nonatomic, assign) UIColor *tintColor;
 @property (nonatomic, strong) UIImage *image;
+@property (nonatomic, strong) NSString *imageName;
 @property (nonatomic, assign) NSInteger viewIndex;
 @property (nonatomic, assign) NSInteger leftCalloutViewIndex;
 @property (nonatomic, assign) NSInteger rightCalloutViewIndex;

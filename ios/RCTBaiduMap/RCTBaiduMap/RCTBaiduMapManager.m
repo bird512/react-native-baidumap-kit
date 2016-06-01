@@ -293,7 +293,14 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
         }
         if(annotation.size <= 1){
             //update the ping image
-            view.image = [UIImage imageNamed:@"mapapi.bundle/images/pin_red.png"];
+            if (annotation.imageName){
+                NSString *imageUrl = [@"mapapi.bundle/images/" stringByAppendingString:annotation.imageName];
+                UIImage *img = [UIImage imageNamed: imageUrl];
+                view.image = img;
+            }else{
+                view.image = [UIImage imageNamed:@"mapapi.bundle/images/pin_red.png"];
+            }
+            
         }
     }
     
@@ -345,7 +352,7 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
         }
         annotationView.image = annotation.image;
         
-        //UIImage *img = [UIImage imageNamed:@"mapapi.bundle/images/pin_green.png"];
+        //UIImage *img = [UIImage imageNamed:@"mapapi.bundle/images/icon_nav_start.png"];
         //annotationView.image = img;
         annotationView.centerOffset = CGPointMake(0, 0 - annotationView.image.size.height / 2);
         
@@ -435,6 +442,12 @@ RCT_EXPORT_METHOD(zoomToLocs:(nonnull NSNumber *)reactTag
     }
     
     //paopao view end
+    
+    if (annotation.imageName){
+        NSString *imageUrl = [@"mapapi.bundle/images/" stringByAppendingString:annotation.imageName];
+        UIImage *img = [UIImage imageNamed: imageUrl];
+        annotationView.image = img;
+    }
     if (annotation.displayNumber) {
       
         UILabel *la = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, annotationView.frame.size.width,annotationView.frame.size.height-annotationView.frame.size.height*20/69)];
